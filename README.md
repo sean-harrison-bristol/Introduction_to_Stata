@@ -1,2 +1,2 @@
-# Introduction_to_Stata
+# Introduction to Stata
 Files for my course: Introduction to Stata
