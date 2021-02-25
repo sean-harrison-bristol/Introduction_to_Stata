@@ -1,0 +1,1001 @@
+var1,age,sex,height,weight,hair_colour,systolic_bp,diastolic_bp,accommodation,exercise,calories,income,var13,current_smoker,favourite_colours,date_of_bp_measurement
+1,78,Female,166,134.48183,Black,118,81,Own,0,1605,"<18,000",,2,Blue; Yellow; Red,03/12/2018
+2,39,Female,167,171.07851,Red,134,96,Rent,4,2329,"<18,000",0,2,Red; Indigo; Violet,31/12/2018
+3,79,male,181,193.7861,Brown,136,98,Own,0,2124,"50,000+",0,1,Yellow; Blue; Green,24/09/2018
+4,27,Female,156,188.49501,Brown,128,91,Own,3,2301,"<18,000",1,2,Indigo; ; Yellow,21/07/2017
+5,74,male,167,166.22835,Black,126,85,Own,0,1960,"<18,000",0,2,Violet; ; Blue,24/08/2019
+6,50,male,170,120.81317,Brown,124,82,Rent,0,1787,"<18,000",0,1,Red; Violet; Blue,03/03/2019
+7,78,Female,170,197.53395,Blonde,143,99,Own,0,1833,"<18,000",0,1,Red; Violet; Indigo,12/05/2018
+8,62,Male,176,202.60458,Brown,142,105,Mortgage,0,2300,"18,000 to 30,000",0,1,Orange; Red; Green,02/03/2018
+9,999,male,177,165.56696,Brown,138,96,Mortgage,0,2010,"<18,000",0,2,Yellow; Green; Indigo,24/11/2018
+10,75,Female,156,126.76565,Blonde,118,77,Own,0,1533,"<18,000",0,2,Green; Indigo; Yellow,15/12/2019
+11,79,Female,156,164.46465,Red,125,88,Own,0,1705,"50,000+",0,2,Indigo; Red; Violet,22/04/2018
+12,31,Male,169,170.19666,Brown,123,87,Rent,1,2349,"<18,000",0,2,Green; Blue; Yellow,17/12/2018
+13,51,female,154,153.00063,Brown,120,78,Mortgage,2,1968,"<18,000",0,2,Orange; Yellow; Blue,05/08/2017
+14,47,Male,177,188.49501,Brown,132,91,Rent,1,2440,"<18,000",0,2,Green; Indigo; Red,11/03/2018
+15,55,female,154,139.77292,Black,134,91,Own,4,2120,"18,000 to 30,000",1,2,Yellow; Indigo; Violet,25/08/2017
+16,57,male,181,166.44881,Blonde,110,70,Mortgage,1,2255,"30,000 to 50,000",0,2,Indigo; Orange; Red,09/01/2020
+17,28,Female,155,133.59998,Black,129,93,Rent,3,2102,"<18,000",1,2,Blue; Orange; Red,04/08/2019
+18,35,Male,172,166.00789,Grey,122,78,Mortgage,0,2254,"18,000 to 30,000",0,2,Orange; Yellow; Blue,04/03/2020
+19,72,female,158,173.28313,Blonde,125,84,Rent,0,1779,"30,000 to 50,000",0,1,Green; Red; Yellow,25/02/2018
+20,24,Female,163,166.44881,Blonde,120,75,Mortgage,1,2072,,1,2,Yellow; Green; Indigo,31/10/2017
+21,68,Male,172,175.70821,Brown,133,99,Rent,0,2037,"30,000 to 50,000",0,2,Orange; Violet; Green,06/02/2018
+22,52,Female,161,154.98479,Blonde,,86,Rent,0,1850,"18,000 to 30,000",0,1,Indigo; Yellow; Green,23/10/2018
+23,78,Female,165,190.92009,Blonde,147,102,Mortgage,2,2030,,0,2,Red; Indigo; Yellow,18/11/2017
+24,47,male,181,189.81778,Black,132,97,Mortgage,3,2589,"<18,000",1,2,Indigo; Orange; Violet,11/12/2017
+25,59,Male,176,143.96169,Brown,104,62,Own,0,1977,"18,000 to 30,000",0,2,Orange; Blue; Green,27/02/2019
+26,45,male,165,,Brown,134,98,,1,1954,"<18,000",0,2,Blue; Yellow; Violet,27/05/2019
+27,44,male,175,168.65343,Brown,124,77,Rent,3,2487,"18,000 to 30,000",0,2,Blue; Green; Red,26/06/2018
+28,55,Male,181,206.13197,Blonde,116,66,Own,0,2379,"<18,000",0,2,Blue; Orange; Violet,26/09/2019
+29,44,female,,142.19798,Brown,119,79,Rent,2,1934,"18,000 to 30,000",1,1,Blue; Yellow;,
+30,76,male,172,170.19666,Blonde,131,93,Own,2,2233,"<18,000",1,2,Violet; Red; Yellow,11/02/2020
+31,28,male,181,213.62769,Brown,123,84,Rent,2,2813,"<18,000",0,2,Yellow; Indigo; Red,
+32,67,female,161,142.6389,Blonde,129,86,Rent,3,1992,"18,000 to 30,000",0,2,Yellow; Indigo; Blue,23/02/2018
+33,76,female,159,123.67918,Blonde,127,,Rent,1,1632,"18,000 to 30,000",0,2,Green; Violet; Orange,12/09/2017
+34,20,Female,168,196.87257,Grey,110,70,Rent,4,2550,"<18,000",1,2,Indigo; Red; Yellow,22/06/2019
+35,999,female,162,177.69237,Blonde,129,92,Mortgage,1,1905,"18,000 to 30,000",0,2,; Orange; Yellow,17/03/2019
+36,68,Female,162,179.67653,Brown,127,92,Rent,0,1808,"50,000+",0,1,Violet; Yellow; Indigo,20/02/2020
+37,42,male,175,215.39137,Grey,136,98,Own,2,2712,"<18,000",1,1,Blue; Green; Indigo,24/02/2020
+38,79,Female,162,161.81911,Grey,119,82,Rent,0,1666,"18,000 to 30,000",0,2,Orange; Yellow; Blue,29/09/2019
+39,53,Male,171,182.98346,Blonde,123,88,Own,2,2423,"18,000 to 30,000",0,2,Blue; Yellow; Orange,13/08/2019
+40,63,Male,176,203.48643,Black,124,,Own,1,2451,"18,000 to 30,000",0,2,Indigo; Green; Blue,27/11/2019
+41,999,male,177,160.0554,Red,112,65,Rent,3,2548,"18,000 to 30,000",1,2,Green; ; Orange,17/02/2020
+42,999,Male,174,180.55838,Blonde,120,79,,,2534,"18,000 to 30,000",0,2,Orange; Yellow; Indigo,
+43,78,Male,173,153.662,Grey,137,93,Rent,0,1874,"30,000 to 50,000",0,2,Red; Yellow; Orange,09/01/2020
+44,999,male,,160.49634,Blonde,116,75,Rent,4,2644,"18,000 to 30,000",1,2,Green; Blue;,26/08/2019
+45,44,male,180,199.29765,Brown,140,99,Rent,0,2399,"18,000 to 30,000",0,2,Yellow; Green; Blue,01/02/2018
+46,999,Female,161,162.26003,Blonde,114,79,Rent,1,2065,,1,1,Violet; Green; Yellow,14/03/2020
+47,71,Male,178,,Brown,140,99,Own,1,2092,"30,000 to 50,000",0,2,Indigo; Green; Blue,02/11/2018
+48,999,Female,155,110.45146,Black,130,88,Mortgage,0,1495,"<18,000",0,1,Red; Blue; Orange,26/05/2019
+49,63,male,181,,Red,114,70,Mortgage,0,2243,"30,000 to 50,000",,1,Red; Green;,28/10/2019
+50,78,Male,168,175.48775,Blonde,139,96,Own,0,1975,"<18,000",0,2,Violet; Yellow; Red,
+51,36,Female,161,165.78741,Brown,,87,Rent,,1891,"<18,000",0,2,Orange; Violet; Green,17/08/2017
+52,20,Male,178,182.98346,Black,124,84,,0,2495,"30,000 to 50,000",1,2,Red; Blue;,13/01/2019
+53,32,Male,,198.4158,Brown,125,83,Rent,1,2562,"30,000 to 50,000",0,2,Orange; Yellow; Violet,14/07/2018
+54,53,Female,158,152.11877,Red,120,88,Rent,2,1928,"<18,000",0,2,Green; Blue; Indigo,22/03/2019
+55,75,Female,161,176.3696,Blonde,143,102,Rent,0,1718,"18,000 to 30,000",0,1,Green; Indigo; Blue,16/08/2019
+56,69,male,179,193.12471,Brown,149,105,Rent,1,2202,"18,000 to 30,000",0,2,Violet; Yellow; Red,22/09/2019
+57,23,Male,181,195.77026,Black,114,75,Rent,1,2603,"<18,000",0,2,Blue; Orange; Violet,28/02/2018
+58,38,female,165,,Brown,114,,Rent,,1952,"18,000 to 30,000",0,1,Red; Blue; Indigo,14/12/2019
+59,47,Female,164,130.73396,Blonde,132,95,Rent,0,1724,"30,000 to 50,000",,2,Indigo; Blue; Orange,
+60,55,Male,171,199.73857,Black,115,68,Rent,,2391,,0,2,Green; Violet; Orange,28/06/2019
+61,999,Female,162,156.0871,Blonde,111,71,Mortgage,1,2039,"18,000 to 30,000",0,2,Indigo; Violet;,21/02/2018
+62,46,Male,175,170.41713,Black,123,80,Rent,0,2289,,0,2,Indigo; Green; Orange,13/08/2017
+63,22,male,179,194.00656,Blonde,123,77,Rent,4,2915,"<18,000",1,2,Blue; Indigo;,14/10/2017
+64,43,Male,175,206.79337,Brown,135,95,,1,2612,"<18,000",0,2,Green; Blue; Orange,19/07/2019
+65,65,Female,158,160.49634,Black,124,78,,0,1726,"<18,000",0,2,Yellow; Orange; Violet,15/09/2019
+66,55,female,158,123.67918,Black,124,82,Rent,,1621,"30,000 to 50,000",0,2,; Yellow; Green,12/03/2019
+67,68,male,181,204.14781,Black,110,68,Own,0,2310,"30,000 to 50,000",0,2,Green; Red; Indigo,15/12/2018
+68,54,Male,,174.82637,Blonde,130,88,,,2272,,0,2,Indigo; Orange;,
+69,45,male,172,164.6851,Red,119,77,Own,4,2643,"<18,000",1,2,Green; Indigo; Orange,29/04/2019
+70,65,Male,178,164.6851,Blonde,136,90,Own,1,2162,"30,000 to 50,000",0,2,Green; Orange; Yellow,
+71,65,male,166,,Brown,128,87,Own,0,2135,"<18,000",0,1,Red; Violet; Indigo,
+72,71,Male,177,169.75574,Blonde,119,77,Own,0,2055,"50,000+",0,2,Yellow; Indigo; Green,04/08/2018
+73,22,male,187,,Brown,112,78,Rent,1,2556,"<18,000",0,2,Green; Red; Blue,
+74,999,male,,158.51218,Brown,116,77,,,2152,"30,000 to 50,000",0,2,Yellow; Green; Red,28/03/2019
+75,24,Female,169,138.45013,Black,115,69,Rent,4,2252,"<18,000",1,2,Orange; Red; Yellow,17/05/2018
+76,45,female,162,,Black,135,101,Rent,2,1966,"30,000 to 50,000",0,2,Indigo; Red;,28/01/2019
+77,999,Male,170,167.33066,Brown,104,68,Own,4,2632,"50,000+",1,2,Indigo; Yellow; Violet,16/08/2017
+78,58,Female,165,150.13461,Blonde,134,92,Own,1,NR,"18,000 to 30,000",0,1,Indigo; Red; Violet,27/04/2019
+79,999,Female,159,151.45738,Black,132,90,Rent,0,1704,"<18,000",0,2,Yellow; Red; Violet,08/02/2020
+80,68,male,181,223.32802,,111,64,,,2486,"18,000 to 30,000",0,2,Green; Red; Orange,02/01/2020
+81,47,Female,158,136.90691,Black,,83,Mortgage,0,1706,"18,000 to 30,000",0,2,Orange; Green; Blue,29/10/2018
+82,49,Female,158,137.12737,Brown,108,66,Own,0,1701,"<18,000",0,1,; Indigo; Violet,25/01/2019
+83,74,female,164,163.58279,Brown,112,63,Mortgage,0,1790,"<18,000",0,1,; Yellow; Green,18/12/2018
+84,66,Male,174,173.50359,Brown,131,91,Mortgage,0,2105,"30,000 to 50,000",0,1,Green; Orange; Red,14/03/2019
+85,40,Female,159,,Black,115,73,Rent,3,2061,"18,000 to 30,000",1,1,Violet; Yellow; Blue,23/10/2018
+86,27,female,166,152.11877,Grey,114,77,Rent,4,2280,"<18,000",0,2,Blue; Yellow; Red,29/11/2019
+87,53,female,165,154.54385,Black,133,90,Rent,2,1935,"18,000 to 30,000",0,1,Yellow; Blue; Orange,31/12/2019
+88,28,male,176,134.92274,Blonde,113,74,Rent,3,2341,"18,000 to 30,000",1,2,Indigo; Orange; Violet,24/04/2019
+89,30,male,178,130.29305,Blonde,117,72,Rent,3,2325,"<18,000",0,1,Green; Blue; Violet,
+90,41,female,157,172.40128,Black,123,77,Own,,2178,"30,000 to 50,000",0,2,Red; Green; Blue,06/08/2017
+91,76,Male,172,185.40854,Brown,134,92,Own,0,2138,"50,000+",0,2,Green; Yellow; Blue,10/03/2018
+92,71,Male,173,203.48643,Brown,143,,Own,0,2209,"<18,000",0,1,Blue; Orange; Red,07/10/2018
+93,69,male,170,120.59271,Brown,,66,Mortgage,0,1779,"<18,000",0,2,Orange; Green; Blue,31/05/2018
+94,65,Male,173,165.78741,Grey,142,103,Mortgage,2,2251,"18,000 to 30,000",0,2,Violet; Blue; Orange,24/01/2018
+95,61,female,152,149.47324,Grey,133,90,Rent,1,1840,"30,000 to 50,000",0,2,Indigo; Orange; Red,28/10/2018
+96,45,male,172,172.62175,Red,129,,Own,1,2283,"30,000 to 50,000",0,2,Yellow; Orange; Green,09/09/2019
+97,26,Female,158,,Blonde,115,78,Rent,3,2162,"<18,000",1,2,Violet; ; Green,05/10/2017
+98,53,Female,159,156.74847,Black,135,96,Own,0,1739,"50,000+",0,1,Orange; Green;,19/10/2017
+99,28,male,180,184.52669,Brown,127,89,Mortgage,1,2465,,0,2,Orange; Red; Blue,15/05/2019
+100,72,male,183,208.11613,Black,131,89,Own,0,2266,"50,000+",0,,Violet; Red; Indigo,07/03/2020
+101,42,male,178,187.61316,Brown,134,95,Rent,4,2754,"<18,000",0,2,Green; Orange; Indigo,22/01/2020
+102,68,male,170,149.25276,Brown,118,81,Own,3,2155,"<18,000",1,2,Blue; Violet; Red,27/02/2018
+103,42,female,161,154.54385,Brown,134,104,Rent,,1926,,0,2,Orange; Red; Blue,15/03/2019
+104,31,Female,164,155.20525,Blonde,,75,Rent,2,2113,"18,000 to 30,000",0,2,Violet; Indigo; Blue,25/09/2019
+105,29,female,,167.1102,Brown,,96,Rent,0,1917,"<18,000",0,1,; Indigo; Yellow,17/02/2020
+106,75,Female,161,143.52075,Black,125,87,Own,0,1568,"50,000+",0,2,Blue; Indigo; Red,11/11/2018
+107,77,Male,174,182.98346,Blonde,145,110,Rent,1,2169,"30,000 to 50,000",1,1,Yellow; Indigo; Green,08/08/2018
+108,35,Female,158,115.74255,Blonde,112,74,Mortgage,4,2114,"18,000 to 30,000",1,2,Violet; Green; Yellow,13/06/2018
+109,74,Female,158,167.1102,Black,133,86,Mortgage,0,1778,,0,1,Yellow; Indigo; Violet,27/02/2019
+110,72,Female,,165.78741,Blonde,140,99,Own,0,1690,"50,000+",0,2,Orange; Red; Violet,14/01/2018
+111,21,male,174,198.19534,Grey,123,80,,4,2924,"<18,000",1,1,Violet; Orange; Indigo,30/10/2017
+112,24,female,164,175.04683,Brown,123,84,Rent,0,2063,"<18,000",,1,Yellow; Orange; Blue,13/01/2019
+113,50,female,163,179.23561,,121,77,Rent,0,1914,"<18,000",0,2,Red; Green; Yellow,02/10/2019
+114,62,male,174,195.54979,Grey,132,92,,3,2543,"50,000+",,2,Indigo; Yellow; Orange,03/02/2020
+115,26,male,180,203.70689,,118,79,Rent,3,2886,"<18,000",1,2,Violet; Indigo; Blue,
+116,57,Female,158,117.94717,Brown,119,86,Mortgage,3,1929,"50,000+",0,2,Yellow; Green; Orange,25/08/2018
+117,42,Female,165,158.29172,Black,114,84,Rent,2,2051,"18,000 to 30,000",1,2,Indigo; Violet; Green,25/09/2019
+118,20,Female,160,154.10294,Red,121,89,,,2197,"18,000 to 30,000",0,2,Orange; Blue; Violet,09/03/2018
+119,63,female,,132.71812,Brown,120,83,Mortgage,1,1769,"<18,000",0,2,Orange; Yellow;,08/08/2018
+120,47,male,180,224.87125,Brown,114,79,Mortgage,3,2863,"<18,000",1,2,Blue; Orange; Violet,04/12/2019
+121,43,female,,,Brown,109,72,Rent,,2079,"<18,000",1,2,Orange; Blue; Green,
+122,65,Male,175,192.0224,Blonde,117,82,Own,0,2230,"18,000 to 30,000",0,2,Violet; Blue; Red,11/08/2019
+123,80,Male,170,130.07259,Black,132,96,Own,0,1668,"18,000 to 30,000",0,1,Blue; Green; Indigo,25/12/2018
+124,53,Male,172,170.63759,Black,121,85,Own,0,2120,"<18,000",0,1,Green; Orange; Indigo,21/04/2018
+125,68,female,158,143.74121,Blonde,125,89,Rent,0,1636,"30,000 to 50,000",0,2,Blue; Yellow; Indigo,20/01/2018
+126,31,female,150,114.64024,Brown,125,83,Rent,4,2068,"18,000 to 30,000",,2,Blue; Red; Orange,22/11/2018
+127,58,male,180,226.19402,Black,130,93,Own,1,2605,"18,000 to 30,000",0,1,Green; Indigo; Violet,
+128,31,Female,162,153.22108,Grey,108,62,Rent,3,2172,"18,000 to 30,000",1,2,Orange; Green; Indigo,26/03/2020
+129,74,Female,158,126.76565,,139,93,Mortgage,1,1642,"50,000+",0,1,Green; Orange; Red,10/11/2018
+130,57,Male,169,131.61581,Black,122,76,Own,0,1883,"18,000 to 30,000",0,1,Blue; Green;,12/01/2019
+131,27,male,177,175.26729,Blonde,113,75,Rent,0,2311,"18,000 to 30,000",0,1,Blue; Violet; Red,03/07/2019
+132,58,Male,170,203.48643,Blonde,134,92,Rent,0,2237,"18,000 to 30,000",0,2,Yellow; Blue; Indigo,11/01/2019
+133,43,,166,167.1102,Brown,127,89,Rent,,2261,"18,000 to 30,000",0,1,Green; Violet; Red,04/04/2018
+134,999,female,159,145.064,Black,136,95,Mortgage,0,1710,"30,000 to 50,000",0,1,Violet; Red; Green,20/11/2019
+135,59,Female,166,185.18808,Blonde,140,101,Rent,,1886,"30,000 to 50,000",0,2,Orange; Blue;,
+136,80,male,176,174.38544,Blonde,119,78,Own,1,2118,"30,000 to 50,000",0,1,Violet; Indigo; Blue,02/09/2017
+137,34,Male,178,200.39996,Red,138,94,Rent,,2501,"18,000 to 30,000",1,,Indigo; Blue; Yellow,06/10/2017
+138,60,male,181,238.53987,Black,128,84,Own,0,2592,"<18,000",0,2,Orange; Red; Green,21/02/2018
+139,48,Male,180,175.26729,Blonde,120,77,Rent,1,2348,"<18,000",0,1,Blue; Green; Indigo,05/10/2017
+140,45,male,174,177.25145,Brown,122,86,Own,,2658,"<18,000",1,2,Blue; Green; Red,18/12/2019
+141,51,male,173,154.76431,Blonde,131,81,Own,1,2210,"18,000 to 30,000",1,1,Red; Indigo; Yellow,04/05/2019
+142,72,Female,158,160.27586,Grey,130,92,Rent,0,1700,"30,000 to 50,000",0,1,Blue; Orange; Yellow,29/08/2019
+143,21,Male,176,163.80327,Blonde,114,71,Rent,4,2688,"<18,000",0,2,Blue; Violet; Orange,04/03/2019
+144,59,Male,182,174.82637,Blonde,120,78,Own,0,2078,"<18,000",0,1,Orange; Blue; Green,29/09/2019
+145,54,Male,174,171.29897,Brown,115,81,Mortgage,0,2091,"18,000 to 30,000",0,2,Orange; Blue; Violet,18/01/2020
+146,63,Female,,140.4343,Red,125,85,Rent,1,1723,"50,000+",0,2,Indigo; Green; Red,01/01/2018
+147,26,Female,163,125.22241,Blonde,115,72,Own,1,1860,"18,000 to 30,000",0,1,; Violet; Orange,10/10/2017
+148,47,female,157,126.54519,Brown,119,86,Own,0,1728,"18,000 to 30,000",0,1,Red; Orange; Green,
+149,38,Male,174,205.47058,,126,89,Own,2,2611,"18,000 to 30,000",0,2,Yellow; Red; Violet,13/11/2019
+150,999,Male,174,194.44748,Brown,137,95,Rent,0,2317,"<18,000",0,2,Red; Green; Yellow,28/06/2018
+151,45,male,176,223.9894,Brown,125,85,Rent,3,2846,"18,000 to 30,000",1,1,Indigo; Red; Blue,
+152,52,Female,,188.93593,Blonde,130,93,Rent,0,1881,,0,2,Violet; Indigo; Green,25/09/2018
+153,61,Male,167,148.15045,Brown,120,78,Rent,1,2002,"18,000 to 30,000",0,2,Red; Violet; Yellow,02/02/2020
+154,71,Male,176,180.33792,Red,127,84,Rent,0,2136,"18,000 to 30,000",0,2,Yellow; Indigo; Blue,25/06/2019
+155,24,Female,162,165.56696,Grey,111,,Rent,4,2384,"<18,000",0,2,Green; Blue; Orange,30/09/2019
+156,74,Male,169,177.47191,Brown,150,111,Own,0,1964,"<18,000",0,2,Green; Violet; Orange,09/11/2018
+157,77,Female,154,121.03364,Brown,130,89,Own,0,1531,"50,000+",0,1,Violet; ; Indigo,
+158,32,male,179,,Blonde,120,82,Rent,1,2490,"<18,000",0,2,Blue; Violet; Green,11/10/2018
+159,43,Female,167,170.41713,Black,106,71,Mortgage,0,1929,"18,000 to 30,000",0,1,Orange; Green; Yellow,22/05/2019
+160,26,female,162,132.05675,Grey,118,81,Rent,2,1975,"<18,000",0,1,Violet; Green; Red,12/01/2018
+161,31,female,161,130.07259,Brown,114,74,Rent,1,1905,"18,000 to 30,000",0,2,Orange; Red; Blue,14/08/2017
+162,999,male,176,165.78741,Blonde,129,,Mortgage,0,1973,"30,000 to 50,000",0,1,; Blue; Red,05/09/2017
+163,73,male,169,186.51085,Brown,146,103,,1,2251,"30,000 to 50,000",0,2,Red; Orange; Blue,
+164,999,Female,160,165.12604,Brown,131,97,Mortgage,0,1824,"18,000 to 30,000",0,1,Yellow; Violet; Indigo,25/08/2017
+165,40,Female,159,165.78741,Black,128,89,Mortgage,,2290,"<18,000",0,1,Orange; Violet; Green,06/11/2019
+166,67,Male,182,207.45474,Red,132,88,Rent,,2393,"30,000 to 50,000",0,1,Indigo; Violet; Blue,03/10/2019
+167,30,female,,119.4904,Brown,125,84,Rent,0,1739,"<18,000",0,2,Green; Orange; Red,23/11/2017
+168,999,female,169,151.01646,Blonde,133,96,Rent,0,1716,"<18,000",0,2,Red; Orange; Violet,21/06/2018
+169,68,Male,174,,Grey,140,93,Mortgage,0,1980,"30,000 to 50,000",0,1,Yellow; ; Green,16/07/2019
+170,41,Male,174,197.53395,Brown,115,75,Own,0,2429,"50,000+",0,2,Red; Orange; Yellow,07/08/2017
+171,20,Female,155,,Black,123,83,Rent,4,2155,"<18,000",1,1,Blue; Green; Yellow,20/11/2018
+172,27,male,172,156.30756,Brown,119,79,Rent,1,2284,"<18,000",0,1,Blue; Violet; Green,31/07/2018
+173,49,Female,155,142.6389,Brown,124,81,Mortgage,3,2046,"30,000 to 50,000",1,2,Yellow; Orange; Blue,05/09/2019
+174,74,male,175,167.1102,Blonde,119,84,Own,0,1935,"<18,000",0,2,Blue; Indigo; Red,01/09/2019
+175,49,Male,172,193.7861,Blonde,142,104,Mortgage,3,2643,"30,000 to 50,000",1,2,Yellow; Blue; Orange,18/07/2018
+176,38,Female,159,140.4343,Red,126,84,Rent,,1779,"18,000 to 30,000",0,2,Yellow; Green; Indigo,15/04/2018
+177,36,Female,166,112.87655,Red,111,77,Rent,,1719,"<18,000",0,2,Orange; Green; Violet,
+178,47,Female,161,167.33066,Blonde,124,78,,1,1955,"30,000 to 50,000",1,2,Blue; Violet; Orange,26/03/2018
+179,35,Female,158,132.93858,Black,124,89,Rent,1,1874,"<18,000",1,2,Orange; ; Green,11/01/2018
+180,78,male,179,226.41447,Blonde,141,102,Mortgage,2,2563,"18,000 to 30,000",1,1,Indigo; Red; Yellow,08/08/2019
+181,72,male,174,177.47191,Red,148,110,Own,0,2119,"<18,000",0,2,Indigo; Yellow; Orange,12/07/2018
+182,80,female,159,137.34782,Blonde,147,105,Own,2,1774,"30,000 to 50,000",,2,Green; Orange; Indigo,02/10/2018
+183,29,female,,158.51218,Grey,122,78,,0,1939,"<18,000",0,1,Violet; Indigo; Green,02/09/2018
+184,62,Male,191,,Brown,122,86,Rent,0,2662,"<18,000",0,2,Yellow; Green; Blue,17/09/2018
+185,75,male,171,199.51811,Red,142,103,Own,0,2228,"<18,000",0,1,Indigo; Yellow; Orange,13/09/2019
+186,68,female,166,153.44154,Red,140,98,Rent,,1721,"18,000 to 30,000",0,1,Red; Indigo; Yellow,02/10/2019
+187,70,Female,152,136.24551,Brown,132,92,Own,0,1610,"<18,000",0,1,Green; Red; Blue,20/04/2019
+188,66,Male,187,,Grey,141,105,Own,0,2430,"18,000 to 30,000",0,2,Violet; Green; Red,12/01/2019
+189,48,female,164,143.30029,Blonde,129,86,Own,4,2126,"18,000 to 30,000",1,2,Orange; Indigo; Blue,09/09/2017
+190,44,female,165,142.41844,Blonde,110,68,Own,2,1989,"18,000 to 30,000",0,2,Indigo; Blue; Red,28/10/2018
+191,57,Female,,171.29897,Blonde,133,,Mortgage,0,1855,,0,2,Yellow; Indigo; Blue,14/12/2018
+192,74,Male,179,212.52538,Red,149,103,Own,0,2326,"18,000 to 30,000",0,2,Indigo; Red;,16/12/2019
+193,48,Male,180,170.85805,Grey,122,82,Own,1,2251,"<18,000",0,2,Green; Red;,22/06/2019
+194,35,male,179,200.39996,Brown,132,95,Rent,,2672,"<18,000",0,2,Yellow; Red; Violet,05/07/2019
+195,61,Female,157,122.79733,Black,125,87,Own,0,1662,"18,000 to 30,000",0,2,Green; Red; Indigo,21/02/2019
+196,47,Female,160,169.9762,Brown,135,97,Rent,2,2126,"<18,000",0,1,; Green;,14/10/2017
+197,62,male,180,215.17091,Brown,124,84,Own,2,2552,"<18,000",0,2,Orange; Violet; Yellow,03/08/2018
+198,22,male,173,169.09435,Brown,113,73,Rent,0,2305,"<18,000",1,2,Violet; Orange; Blue,
+199,32,female,167,165.3465,Brown,119,85,Rent,4,2303,"18,000 to 30,000",1,2,Orange; Yellow; Blue,04/05/2018
+200,30,male,173,162.48048,Brown,105,63,Rent,4,2648,"30,000 to 50,000",1,2,Orange; Blue; Red,03/08/2018
+201,28,female,164,185.84947,Blonde,116,,Rent,3,2371,"30,000 to 50,000",0,2,Blue; Orange; Green,22/12/2017
+202,71,male,173,184.30623,Red,130,98,Own,,2335,"50,000+",1,1,Yellow; Blue; Violet,20/02/2018
+203,69,male,163,164.90558,Blonde,129,90,Own,1,2060,"30,000 to 50,000",0,2,Red; Indigo; Violet,21/07/2018
+204,35,female,171,153.00063,Black,112,71,Rent,1,1975,"18,000 to 30,000",0,2,Indigo; Blue; Yellow,
+205,20,female,153,150.13461,Brown,123,88,Rent,4,2344,"<18,000",0,2,Yellow; Blue; Orange,26/09/2019
+206,60,Male,173,191.80194,Brown,128,92,Own,0,2262,"30,000 to 50,000",0,1,Green; Red; Yellow,26/06/2019
+207,75,male,180,155.64616,Blonde,133,90,Own,2,2120,"18,000 to 30,000",0,2,Violet; Green; Indigo,05/04/2019
+208,999,male,171,233.91017,Red,126,93,Own,0,2468,"30,000 to 50,000",0,2,Orange; Indigo; Red,16/06/2018
+209,28,Male,177,221.56432,Brown,121,78,Rent,0,2717,"<18,000",0,2,Orange; Red; Blue,29/07/2017
+210,999,Female,165,159.83495,Blonde,129,,Rent,4,2327,"<18,000",1,2,Green; Violet; Red,17/06/2019
+211,39,Male,178,220.02109,Black,125,90,Own,0,2515,"<18,000",0,2,Blue; Yellow; Indigo,09/06/2018
+212,47,,170,175.70821,Black,120,82,Own,1,2329,"<18,000",1,1,Orange; Violet; Yellow,24/12/2019
+213,45,male,166,175.26729,Brown,134,87,Mortgage,,2131,"18,000 to 30,000",0,2,Green; Orange; Yellow,12/08/2018
+214,64,Male,176,197.31349,Black,136,92,Rent,0,2231,"<18,000",0,1,Orange; Indigo; Red,30/01/2019
+215,55,male,171,179.67653,Brown,128,,Own,0,2111,"<18,000",1,2,Green; Orange; Yellow,17/01/2020
+216,66,Male,172,178.79468,Black,111,,Own,1,2140,"50,000+",0,2,Indigo; Red; Violet,16/12/2018
+217,30,Male,172,163.58279,Grey,123,87,Rent,0,2213,"<18,000",0,,Indigo; Red; Yellow,
+218,999,Male,180,,Brown,123,84,,0,2518,"30,000 to 50,000",0,1,Violet; Red;,13/05/2018
+219,24,female,167,188.05409,Blonde,125,84,Rent,4,2489,"<18,000",1,2,Violet; Red; Orange,26/08/2017
+220,21,female,165,166.00789,Red,127,82,Rent,4,2352,"<18,000",1,1,Orange; Green; Blue,03/05/2019
+221,20,Female,159,153.88248,Blonde,117,73,Mortgage,1,2009,"18,000 to 30,000",0,2,Violet; Orange; Red,12/08/2019
+222,77,male,182,187.3927,Brown,116,69,Own,1,2251,"50,000+",0,1,Orange; Indigo; Yellow,17/04/2019
+223,45,Male,180,,Brown,120,81,,4,2836,"<18,000",1,1,Blue; Indigo; Red,04/09/2018
+224,34,male,174,174.82637,Red,121,80,Rent,1,2406,"18,000 to 30,000",1,2,Blue; Green; Red,18/11/2017
+225,25,Female,164,,Black,114,74,Rent,4,2126,"18,000 to 30,000",0,2,Green; Red; Indigo,02/09/2017
+226,68,Female,161,135.58414,Black,143,101,Own,1,1702,"18,000 to 30,000",1,2,Yellow; Violet; Blue,20/02/2018
+227,71,male,,164.90558,Red,133,92,Rent,0,1976,"18,000 to 30,000",0,1,Blue; Green; Indigo,18/03/2018
+228,52,Male,178,188.93593,Black,128,,Rent,,2332,"<18,000",0,2,Blue; Indigo; Yellow,09/08/2017
+229,67,male,179,192.68379,Brown,141,92,Rent,0,2204,"<18,000",0,2,Green; Red; Indigo,
+230,52,male,180,184.30623,Brown,132,88,Mortgage,0,2263,"30,000 to 50,000",,1,Green; Red; Blue,20/01/2020
+231,29,female,157,127.42703,Black,117,75,Rent,1,1867,"<18,000",,1,Indigo; Yellow; Red,11/09/2018
+232,46,male,176,187.83362,Black,121,76,,0,2313,"18,000 to 30,000",0,2,Indigo; Red; Yellow,07/09/2019
+233,60,female,165,186.29039,Black,108,67,Mortgage,0,1903,"18,000 to 30,000",0,2,Red; Green; Yellow,01/11/2019
+234,999,female,151,161.15771,Brown,120,87,Own,0,1817,"30,000 to 50,000",0,2,Yellow; Blue; Green,27/05/2018
+235,43,Female,160,154.54385,Black,,86,Rent,0,1838,"18,000 to 30,000",0,2,Blue; Green; Orange,
+236,46,male,173,,Grey,111,72,Own,2,2316,"30,000 to 50,000",0,2,Orange; Yellow; Blue,24/05/2018
+237,55,Male,172,126.98611,Grey,123,85,Own,0,1823,"18,000 to 30,000",0,2,Green; Violet; Orange,24/02/2018
+238,65,Female,167,212.08444,Blonde,152,116,Own,0,1924,"18,000 to 30,000",0,2,Violet; Orange; Green,23/03/2020
+239,47,female,160,163.80327,Blonde,127,89,,3,2165,"30,000 to 50,000",0,2,Red; Violet; Yellow,12/02/2020
+240,65,Female,149,120.81317,Red,140,96,,1,1634,"18,000 to 30,000",,1,Violet; Yellow; Green,20/05/2018
+241,78,Female,165,144.62306,Blonde,148,108,Own,0,1647,,0,1,Orange; Green; Red,05/01/2018
+242,46,male,186,208.99799,Black,130,88,Own,,2511,"<18,000",0,2,Green; Orange; Indigo,07/09/2017
+243,40,Male,178,173.06267,Brown,104,59,Rent,2,2460,"18,000 to 30,000",0,2,Red; Blue; Green,07/12/2019
+244,29,female,160,149.0323,Black,118,80,Rent,1,2000,"<18,000",0,2,Yellow; Blue; Indigo,02/12/2018
+245,30,female,165,135.58414,Blonde,98,58,Rent,1,1935,"<18,000",0,1,Violet; Indigo; Blue,06/01/2020
+246,46,Male,177,185.40854,Blonde,119,77,Mortgage,1,2357,,0,1,Indigo; Orange; Red,30/04/2019
+247,37,female,155,197.31349,Black,134,94,Rent,3,2321,"18,000 to 30,000",0,2,Indigo; Violet; Red,03/08/2019
+248,43,male,164,157.40987,Black,125,83,Rent,1,2124,"18,000 to 30,000",1,2,Yellow; Orange; Green,22/11/2018
+249,999,male,,142.41844,Black,103,67,Mortgage,4,2370,"30,000 to 50,000",0,2,Orange; Red; Green,03/03/2018
+250,57,Male,171,171.96036,Brown,117,76,Rent,,NR,"<18,000",0,1,Violet; Green; Yellow,07/04/2018
+251,78,Female,161,117.50624,Blonde,121,78,Rent,1,1666,"30,000 to 50,000",0,2,Green; Yellow; Violet,06/04/2019
+252,43,Female,172,170.41713,Grey,121,86,Rent,0,1910,"<18,000",0,2,Yellow; Violet; Green,16/07/2018
+253,34,male,174,180.55838,Black,126,88,Rent,0,2359,"18,000 to 30,000",0,2,Violet; Yellow; Blue,16/07/2017
+254,30,Male,184,211.20261,Blonde,123,86,Rent,4,2991,"30,000 to 50,000",1,1,Green; Yellow; Violet,22/06/2019
+255,76,male,175,145.064,Red,109,67,Mortgage,0,1832,"30,000 to 50,000",0,1,Violet; Green; Orange,22/07/2017
+256,43,male,179,180.33792,Grey,114,77,Rent,4,2645,"30,000 to 50,000",0,2,Yellow; Violet; Orange,27/03/2018
+257,54,Female,165,162.92142,Grey,115,81,Mortgage,0,1865,"30,000 to 50,000",0,2,Green; Blue; Orange,16/06/2019
+258,24,female,,150.35507,Grey,110,65,Rent,4,2303,,,2,Orange; Violet; Blue,04/02/2018
+259,62,Male,170,139.33199,Brown,,86,Own,1,1951,"30,000 to 50,000",0,2,Violet; Red; Green,08/07/2018
+260,999,male,163,168.43297,Black,119,85,Mortgage,4,2608,"18,000 to 30,000",1,2,Indigo; Green; Blue,04/04/2018
+261,75,female,156,148.15045,Blonde,120,77,Own,0,1677,"50,000+",0,2,Orange; ; Yellow,21/03/2018
+262,40,Female,174,184.30623,Brown,135,93,Rent,0,2031,"18,000 to 30,000",0,1,Red; Indigo;,11/01/2018
+263,23,Male,172,,Blonde,118,80,,4,2755,"<18,000",1,2,Yellow; Orange; Violet,15/04/2018
+264,45,female,,173.94452,Black,132,91,Mortgage,1,1999,"18,000 to 30,000",1,2,Orange; Violet; Red,18/12/2019
+265,43,Female,164,115.74255,Blonde,114,65,Own,1,1725,"<18,000",0,1,Yellow; Orange; Violet,27/05/2019
+266,75,female,162,,Red,121,83,Mortgage,2,1852,,1,2,Violet; Green; Orange,11/12/2018
+267,73,female,166,155.20525,Blonde,122,76,Own,3,2009,"50,000+",0,1,Green; Red; Yellow,13/12/2019
+268,63,female,167,184.30623,Black,107,66,Rent,0,1905,"30,000 to 50,000",0,2,Orange; Blue; Violet,14/06/2018
+269,22,Female,159,180.33792,Brown,121,85,Rent,4,2369,"<18,000",1,2,Yellow; Green; Orange,18/02/2020
+270,999,male,184,209.87982,Red,115,75,Rent,0,2469,"18,000 to 30,000",0,2,Yellow; Violet; Orange,18/12/2019
+271,52,Female,162,149.25276,Brown,121,84,Rent,0,1790,"18,000 to 30,000",0,1,Red; Blue; Green,05/03/2018
+272,34,Male,171,176.81052,Blonde,112,74,Rent,3,2664,"<18,000",0,2,Blue; Indigo; Red,21/09/2019
+273,999,Male,175,155.20525,Brown,122,83,Mortgage,4,2609,,1,2,Indigo; Violet; Yellow,30/10/2017
+274,37,Female,161,159.83495,Grey,117,83,Mortgage,1,1925,"18,000 to 30,000",0,1,Green; Red; Blue,17/08/2019
+275,27,male,179,,Blonde,121,74,Rent,4,2937,"<18,000",0,2,Blue; Green; Violet,20/01/2019
+276,49,Female,168,162.26003,Brown,120,83,Own,0,1873,"18,000 to 30,000",0,1,; Yellow; Violet,13/01/2020
+277,75,male,178,179.67653,Brown,141,,Own,1,2189,"50,000+",0,1,Green; Yellow; Blue,04/08/2017
+278,69,female,167,145.94583,Brown,126,90,Rent,0,1664,"<18,000",0,1,Green; Blue; Red,
+279,999,Female,153,111.9947,Blonde,124,84,,3,1890,"50,000+",0,2,Green; Blue; Violet,
+280,51,male,168,,Grey,135,89,,1,2114,"30,000 to 50,000",0,2,; Indigo;,09/10/2017
+281,60,female,165,163.80327,Brown,,83,Rent,0,1807,"30,000 to 50,000",0,2,; Green; Yellow,15/01/2019
+282,53,Female,175,173.94452,Blonde,114,74,Own,,1926,"<18,000",0,2,Blue; Indigo; Yellow,02/02/2018
+283,33,Male,173,175.04683,Red,116,82,Rent,4,2652,"18,000 to 30,000",1,1,Yellow; Red; Blue,04/08/2019
+284,80,Female,158,132.27721,Blonde,136,92,Own,0,1570,"50,000+",0,2,Yellow; Blue; Green,15/06/2019
+285,80,male,177,234.35112,Red,132,93,Own,1,2543,"50,000+",0,2,Indigo; Orange; Blue,13/02/2019
+286,70,female,160,,Brown,122,86,Rent,0,1890,"30,000 to 50,000",0,2,Green; Red; Indigo,11/10/2017
+287,56,female,166,161.37817,Grey,123,79,Mortgage,4,2170,,0,2,Blue; Yellow; Orange,20/12/2017
+288,40,Female,160,162.48048,Blonde,124,86,,,1845,"<18,000",0,2,Indigo; Yellow; Violet,24/12/2018
+289,25,female,158,159.61449,Grey,125,82,Own,3,2244,"<18,000",1,2,Green; Indigo; Yellow,22/02/2020
+290,28,Female,168,197.53395,Black,138,95,Rent,2,2312,"<18,000",0,2,Blue; Indigo; Red,23/07/2017
+291,78,Male,182,215.83231,Brown,108,,Rent,2,2452,"30,000 to 50,000",0,1,Orange; Indigo; Blue,
+292,999,female,166,147.70953,Brown,118,78,Rent,0,1761,,0,2,Indigo; Orange;,29/10/2019
+293,66,Female,163,151.67786,Blonde,116,79,Mortgage,0,1705,"30,000 to 50,000",0,1,Red; Blue; Indigo,
+294,20,male,175,183.64485,,114,72,Rent,3,2759,"<18,000",1,2,Red; Violet; Blue,
+295,54,Male,163,125.66334,Brown,124,87,Own,0,1749,,0,1,Red; Blue; Green,27/03/2020
+296,36,female,164,145.064,Blonde,121,84,Rent,,1953,"<18,000",,2,; Red; Blue,
+297,999,male,180,179.89699,Brown,112,70,,0,2319,"30,000 to 50,000",,2,Indigo; Violet; Orange,27/10/2017
+298,39,Female,161,162.03957,Brown,114,71,Own,1,1957,"<18,000",0,1,Blue; Indigo; Red,13/07/2019
+299,37,Male,,210.54121,Brown,130,102,Rent,3,2800,"18,000 to 30,000",0,2,Indigo; Yellow; Blue,23/02/2020
+300,41,Female,166,155.4257,Blonde,123,76,Rent,,1885,,1,1,Red; Yellow; Orange,14/09/2017
+301,50,female,158,151.45738,Brown,115,72,Own,2,1971,"30,000 to 50,000",1,1,Orange; Blue; Indigo,27/08/2017
+302,53,female,161,167.99203,Blonde,128,86,Mortgage,2,2010,"18,000 to 30,000",0,2,Green; Blue; Red,14/01/2020
+303,59,female,164,168.21251,Brown,139,95,Own,0,1776,"18,000 to 30,000",0,2,; Orange; Red,03/11/2018
+304,38,Male,172,165.3465,Red,121,73,Own,4,2676,"18,000 to 30,000",1,2,Orange; Green; Blue,13/03/2019
+305,57,Female,160,154.54385,Red,139,102,Rent,0,1729,"<18,000",0,1,Red; Violet; Indigo,28/09/2019
+306,73,Female,162,171.07851,Blonde,138,100,Mortgage,0,1748,"18,000 to 30,000",0,2,Red; Violet; Blue,29/07/2017
+307,68,Female,156,148.81184,Brown,140,96,Own,1,1806,"50,000+",0,2,Indigo; Violet; Blue,
+308,66,male,171,139.11151,Blonde,129,98,Mortgage,0,1862,"<18,000",0,2,Violet; Indigo; Yellow,12/06/2019
+309,40,male,179,168.65343,Brown,115,71,Rent,,2234,"<18,000",0,2,Blue; Violet; Green,12/08/2019
+310,73,Female,162,125.8838,Black,119,77,Mortgage,0,1555,"50,000+",0,1,Blue; Green; Yellow,04/09/2018
+311,80,male,175,193.56564,Brown,137,95,Rent,1,2183,"18,000 to 30,000",0,2,Yellow; Violet; Blue,01/08/2017
+312,32,Female,160,136.02505,Brown,116,75,Rent,1,1887,"18,000 to 30,000",0,1,Violet; Blue; Green,17/12/2019
+313,57,male,176,,Brown,133,93,Own,0,2311,"30,000 to 50,000",,2,Blue; Violet; Red,30/11/2019
+314,56,Female,154,,Brown,133,86,Own,0,1499,"<18,000",0,1,Yellow; Indigo; Violet,28/04/2018
+315,63,Female,157,150.57555,Brown,140,103,Own,0,1743,"<18,000",0,2,Orange; Indigo; Yellow,
+316,35,Male,173,179.89699,Brown,117,77,Rent,,2558,"<18,000",1,2,Indigo; Yellow; Orange,14/01/2018
+317,67,Female,154,134.70229,Blonde,123,83,,2,1813,"50,000+",1,2,Blue; Violet; Orange,16/09/2019
+318,999,Female,,157.18941,Blonde,118,78,Mortgage,0,NR,"18,000 to 30,000",0,2,Green; Yellow; Red,22/07/2019
+319,31,Male,180,200.39996,Black,127,,Own,3,2713,"<18,000",1,1,Green; Blue; Red,02/11/2018
+320,54,female,158,164.24419,Brown,133,90,,3,2116,"30,000 to 50,000",0,1,Indigo; Yellow; Violet,05/09/2018
+321,65,male,174,145.72537,Brown,130,93,,0,1938,"<18,000",0,2,Violet; Orange; Red,11/04/2019
+322,31,female,163,148.15045,Black,113,74,Rent,4,2258,"<18,000",0,1,Violet; Yellow; Green,15/11/2019
+323,57,Male,178,197.31349,Brown,133,98,Mortgage,0,2322,"18,000 to 30,000",0,2,Yellow; Green; Violet,
+324,80,male,182,194.88841,Brown,112,73,Own,1,2250,"<18,000",0,1,; Violet; Orange,14/09/2019
+325,67,female,155,160.27586,Blonde,124,76,Rent,,1716,"18,000 to 30,000",0,1,Violet; Indigo; Green,27/11/2018
+326,66,Female,156,131.83627,Black,118,73,Mortgage,2,1825,"30,000 to 50,000",1,2,Violet; Blue; Red,24/03/2018
+327,999,Female,155,153.22108,Blonde,118,88,Rent,4,2190,"18,000 to 30,000",1,2,Indigo; Yellow; Violet,19/08/2018
+328,55,Male,173,178.1333,Blonde,125,87,Rent,0,NR,"18,000 to 30,000",0,2,Yellow; Violet; Red,06/12/2017
+329,78,Male,183,210.1003,Brown,115,76,Own,1,2356,"18,000 to 30,000",0,1,Green; Blue; Yellow,03/11/2017
+330,66,Female,158,151.23692,Brown,114,75,Own,1,1794,"50,000+",0,2,Blue; Violet; Green,29/01/2020
+331,26,female,161,142.41844,Brown,111,72,Rent,3,2103,"18,000 to 30,000",0,1,Yellow; Orange; Red,13/10/2018
+332,999,male,175,173.06267,Blonde,120,82,Rent,4,2804,"<18,000",1,2,Violet; Indigo; Green,03/12/2018
+333,48,Male,187,212.74583,Grey,121,82,Own,1,2650,"30,000 to 50,000",0,1,; Violet; Blue,
+334,79,Female,162,169.31482,Blonde,113,75,Rent,1,1776,"30,000 to 50,000",0,1,Orange; Green; Blue,12/01/2018
+335,43,Female,161,131.83627,Brown,110,69,Mortgage,0,NR,"<18,000",,2,Green; Violet; Yellow,15/08/2017
+336,55,Female,158,136.02505,Brown,115,74,Own,0,1693,"<18,000",0,2,Orange; Yellow; Indigo,18/09/2019
+337,59,female,168,166.66927,Red,148,110,,1,1912,"18,000 to 30,000",0,2,Green; Orange; Blue,11/05/2019
+338,69,Male,184,199.29765,Black,143,104,Own,,2284,"30,000 to 50,000",0,2,Blue; Red; Green,25/02/2018
+339,29,Male,185,,Black,116,75,Rent,4,2863,"30,000 to 50,000",1,2,Yellow; Orange; Indigo,06/02/2019
+340,57,Female,168,171.29897,Blonde,134,93,Own,2,2040,"<18,000",0,1,Violet; Blue; Indigo,06/01/2020
+341,32,Female,159,147.70953,Brown,120,76,Rent,2,1997,"<18,000",0,2,Indigo; Red; Green,10/10/2019
+342,999,Male,179,195.99072,Brown,122,84,Rent,,2393,"18,000 to 30,000",0,2,Violet; Red; Indigo,
+343,57,female,161,161.81911,Red,129,89,Own,1,1849,"30,000 to 50,000",0,1,Yellow; Violet; Orange,01/04/2018
+344,62,female,158,178.79468,Blonde,143,109,Own,0,1857,"18,000 to 30,000",0,1,Red; Indigo; Green,03/07/2019
+345,76,Male,179,229.28049,Blonde,136,96,Own,1,2428,"50,000+",0,2,Red; Blue; Orange,10/03/2018
+346,55,Female,162,132.71812,Grey,125,86,Mortgage,0,1685,"30,000 to 50,000",0,2,Yellow; Violet; Indigo,26/11/2017
+347,68,male,177,175.92868,Red,125,80,Mortgage,0,2101,"18,000 to 30,000",0,2,Indigo; Green; Violet,03/07/2018
+348,28,female,163,178.35376,Blonde,122,90,Rent,3,2294,"<18,000",1,1,Indigo; Yellow;,21/11/2019
+349,36,female,166,171.07851,Brown,116,73,Rent,1,2059,"<18,000",0,2,Violet; Green; Red,22/12/2019
+350,47,male,172,143.74121,Blonde,120,83,Own,0,1968,"<18,000",0,2,Green; Blue; Yellow,14/02/2018
+351,42,Female,162,149.25276,Blonde,104,65,Rent,4,2204,"30,000 to 50,000",1,2,Green; Red; Indigo,30/10/2018
+352,39,Female,168,172.62175,Blonde,133,87,Own,,1888,"<18,000",0,2,Violet; Orange; Yellow,08/07/2019
+353,999,Male,178,195.10887,Red,116,83,Rent,1,2585,"18,000 to 30,000",0,2,Green; Blue; Violet,19/03/2020
+354,64,Female,158,157.40987,Blonde,116,79,Own,1,1768,"50,000+",0,2,Violet; Green; Red,
+355,34,Female,162,,Blonde,131,92,Rent,1,1977,,0,2,Red; Yellow; Violet,23/07/2017
+356,53,male,178,172.18082,Blonde,116,69,Rent,2,2344,"30,000 to 50,000",0,1,Indigo; Blue; Green,17/02/2020
+357,31,Female,163,142.19798,Brown,119,74,Mortgage,0,1879,"30,000 to 50,000",0,2,Blue; Green; Red,13/11/2019
+358,34,male,,180.77884,Blonde,118,81,Own,0,2279,"<18,000",0,2,Blue; Green; Violet,24/08/2019
+359,54,female,161,170.63759,Black,135,95,Own,0,1867,"30,000 to 50,000",0,1,Violet; Yellow; Green,26/01/2018
+360,79,Female,163,165.78741,Red,147,106,Own,1,1753,"18,000 to 30,000",0,2,Orange; Blue; Indigo,24/11/2018
+361,60,Male,167,140.4343,Blonde,139,98,Own,0,1843,"50,000+",0,2,Yellow; Orange; Blue,09/05/2019
+362,80,male,171,165.78741,Red,109,64,Own,0,1951,,0,1,Orange; Violet; Red,29/07/2017
+363,48,Female,152,158.73264,Black,126,86,Rent,4,2178,"18,000 to 30,000",0,2,Violet; Orange; Yellow,24/08/2019
+364,29,Female,158,153.00063,Blonde,113,78,Rent,4,2203,,0,2,Blue; Indigo; Green,27/09/2018
+365,60,Male,176,182.10161,Blonde,131,,Own,0,2197,"30,000 to 50,000",0,1,Orange; Red; Violet,21/08/2017
+366,61,male,171,162.26003,Black,145,101,Own,0,2072,"50,000+",0,1,Blue; Orange; Violet,13/12/2019
+367,52,Female,161,161.37817,Brown,135,100,Own,,1754,"18,000 to 30,000",0,2,Indigo; Red; Green,18/12/2017
+368,30,female,154,152.11877,Blonde,112,66,Rent,2,2025,"18,000 to 30,000",1,2,; Green; Blue,25/01/2018
+369,52,Female,165,177.03099,Brown,133,90,Own,1,1984,"<18,000",0,1,; Yellow; Indigo,15/02/2018
+370,40,Female,170,178.35376,Brown,132,94,Own,3,2275,"<18,000",1,1,Yellow; Indigo; Red,
+371,27,Female,166,190.47917,Brown,113,79,Own,1,2176,"<18,000",0,2,Red; Violet; Green,16/11/2019
+372,55,male,175,167.1102,Blonde,110,64,Own,0,2164,"<18,000",0,1,Indigo; Yellow; Green,
+373,68,Male,177,188.05409,Black,146,111,,0,2126,"30,000 to 50,000",0,1,Indigo; Violet; Yellow,02/09/2018
+374,46,female,156,139.99336,Brown,134,94,Own,1,1784,"30,000 to 50,000",0,2,Red; Orange; Indigo,30/12/2017
+375,21,male,187,220.90292,Black,123,79,Rent,0,2755,"<18,000",0,2,Blue; Yellow; Violet,28/01/2020
+376,32,Male,,197.31349,Red,123,83,Rent,3,2690,"18,000 to 30,000",1,2,Red; Green; Blue,19/03/2020
+377,29,male,168,135.1432,Grey,104,70,Rent,4,2459,"18,000 to 30,000",1,2,Indigo; Orange; Blue,
+378,41,Female,158,173.94452,Blonde,116,84,Rent,0,1877,"<18,000",0,2,Blue; Yellow;,
+379,63,Male,185,228.61909,Blonde,129,92,Rent,0,2535,"<18,000",0,1,Orange; Indigo; Violet,23/09/2019
+380,76,Female,163,154.76431,Black,120,81,Rent,0,1694,"50,000+",0,1,Green; Indigo; Yellow,09/10/2019
+381,29,male,171,168.21251,Red,119,82,Rent,0,2293,"18,000 to 30,000",0,2,Orange; Green; Violet,24/11/2017
+382,26,male,174,199.73857,Red,124,83,Rent,0,2542,"<18,000",0,2,Blue; Violet; Green,22/02/2020
+383,77,Male,171,217.59599,Black,150,,Mortgage,0,2220,"50,000+",1,2,Orange; Violet; Indigo,19/07/2019
+384,77,male,181,167.77158,Black,146,107,Own,0,1994,"<18,000",0,2,Yellow; Blue; Red,15/11/2017
+385,24,male,175,186.51085,Red,121,75,Rent,2,2567,"<18,000",0,2,Indigo; Yellow; Orange,06/07/2018
+386,43,female,156,148.59138,Brown,118,73,Mortgage,0,1828,"<18,000",0,2,Green; Blue;,12/08/2019
+387,71,female,168,184.30623,Brown,116,82,Own,1,1919,"18,000 to 30,000",0,1,; Orange; Blue,29/02/2020
+388,76,Female,162,169.53528,Grey,139,95,Own,0,1656,"18,000 to 30,000",0,1,Yellow; Indigo; Violet,30/04/2019
+389,28,female,155,173.72406,Black,118,79,,1,2038,"18,000 to 30,000",0,2,; Green;,25/09/2018
+390,61,male,168,196.87257,Blonde,143,105,Own,0,2215,"30,000 to 50,000",0,2,Green; Red; Indigo,14/03/2018
+391,57,Female,161,139.99336,Red,131,93,Rent,1,1757,"18,000 to 30,000",0,1,Yellow; Orange; Indigo,12/04/2019
+392,64,Male,170,212.74583,Grey,147,106,Own,0,2308,"<18,000",0,2,Violet; Yellow; Red,02/12/2018
+393,52,female,167,189.37686,Grey,,71,Mortgage,3,2215,"18,000 to 30,000",1,2,; Yellow; Violet,19/12/2017
+394,29,male,170,146.38676,Blonde,129,87,Rent,1,2305,"18,000 to 30,000",0,1,Yellow; Blue; Green,01/02/2019
+395,999,Female,171,192.68379,Brown,143,105,Mortgage,0,1907,"30,000 to 50,000",0,2,Red; Blue;,11/04/2019
+396,69,female,161,145.94583,Brown,119,80,Rent,0,1697,"50,000+",0,2,Indigo; Orange; Red,14/11/2019
+397,29,Female,162,151.67786,Brown,120,76,Rent,2,2099,"18,000 to 30,000",1,2,Green; Yellow; Indigo,03/12/2019
+398,78,female,155,135.58414,Brown,122,83,Rent,0,1563,"50,000+",0,1,Violet; Red; Green,27/04/2018
+399,26,Female,,,Brown,126,89,Rent,3,2352,"30,000 to 50,000",1,2,Violet; Blue; Indigo,17/11/2018
+400,56,male,168,194.44748,Black,119,,Own,4,2615,"18,000 to 30,000",0,2,Red; Orange; Violet,01/09/2019
+401,34,female,162,187.17224,Brown,129,,Own,,2416,"<18,000",1,1,Indigo; Violet;,01/04/2019
+402,31,Female,162,174.82637,Black,118,78,Rent,4,2345,"<18,000",1,1,Indigo; Blue; Red,
+403,22,female,167,123.89964,Red,109,70,Mortgage,3,2106,"18,000 to 30,000",0,2,Red; Violet; Yellow,26/04/2018
+404,48,Female,157,163.58279,Blonde,129,84,Mortgage,2,2076,"18,000 to 30,000",0,2,Green; Yellow;,18/07/2018
+405,44,Female,162,175.70821,Brown,122,85,Rent,3,2284,"30,000 to 50,000",1,1,Red; Indigo; Violet,11/01/2020
+406,44,female,161,172.84221,Brown,130,91,Rent,0,1898,"<18,000",0,2,Indigo; Violet; Green,10/09/2019
+407,61,Male,173,182.54254,Blonde,126,89,Mortgage,0,2173,"<18,000",0,1,Yellow; Green; Orange,21/12/2017
+408,33,male,171,158.07124,Brown,118,78,Rent,,2287,"18,000 to 30,000",0,2,Green; Blue; Violet,22/08/2019
+409,73,male,185,210.54121,Brown,109,69,Own,0,2312,"50,000+",0,1,Red; Blue; Indigo,01/12/2018
+410,25,Female,156,155.20525,Red,122,81,,2,2116,"30,000 to 50,000",0,2,Red; Yellow; Violet,10/01/2019
+411,70,Male,178,173.72406,Blonde,139,102,Own,1,2187,"18,000 to 30,000",0,1,Violet; Red; Yellow,02/01/2018
+412,25,male,175,182.32207,Brown,117,80,Rent,4,2851,"<18,000",,2,Yellow; Orange; Red,29/07/2017
+413,57,female,162,151.67786,Brown,134,93,Own,0,1728,"<18,000",0,1,Yellow; Indigo; Violet,27/11/2019
+414,32,Male,181,200.39996,Blonde,122,75,Rent,2,2737,"18,000 to 30,000",1,2,; Yellow; Indigo,
+415,31,Male,176,197.75441,Grey,125,81,Rent,1,2529,"<18,000",0,1,Violet; Blue; Red,12/11/2017
+416,51,Male,180,232.80786,Black,108,69,Rent,0,2595,"30,000 to 50,000",0,2,Violet; Yellow; Green,10/04/2019
+417,999,female,165,154.76431,Brown,121,81,Mortgage,0,1922,"<18,000",0,2,Green; Violet; Indigo,12/08/2017
+418,48,Female,162,157.63033,Black,119,75,Own,,1926,"18,000 to 30,000",0,1,Red; Orange; Violet,07/11/2018
+419,27,female,161,193.56564,Blonde,115,78,Rent,1,2111,"<18,000",1,2,Violet; Orange; Indigo,20/01/2019
+420,27,male,178,203.0455,Red,124,84,Rent,0,2507,"<18,000",0,2,Orange; Violet; Indigo,31/08/2018
+421,68,Male,179,199.95903,Black,129,94,Own,0,2271,,0,1,Yellow; Orange; Violet,
+422,51,female,160,158.51218,Blonde,118,82,Mortgage,0,1842,"18,000 to 30,000",0,1,Orange; Green; Yellow,26/03/2018
+423,58,Male,177,173.94452,Blonde,116,,Mortgage,3,2457,"<18,000",0,2,Violet; Red; Indigo,21/12/2018
+424,73,,,211.64352,Brown,128,89,Mortgage,2,2480,"18,000 to 30,000",0,1,Blue; Orange; Green,06/08/2017
+425,56,Male,179,179.23561,Blonde,113,74,Rent,,2250,"<18,000",0,2,Red; Violet; Green,27/05/2019
+426,55,male,171,182.763,Brown,120,74,Rent,4,2615,"18,000 to 30,000",0,2,Green; Red; Indigo,11/03/2018
+427,52,Male,175,218.03693,Blonde,129,76,Own,0,2410,"18,000 to 30,000",0,1,Red; Yellow; Indigo,08/08/2017
+428,73,Female,161,158.07124,Brown,140,99,Rent,0,1691,"30,000 to 50,000",0,2,Red; Violet; Yellow,04/11/2019
+429,51,Male,178,213.84814,Red,127,92,Rent,0,2506,"18,000 to 30,000",0,1,Blue; Green; Indigo,10/05/2018
+430,50,male,173,183.86531,Red,126,78,Own,0,2233,"<18,000",0,2,Orange; Green; Blue,29/10/2019
+431,54,male,170,140.87523,Red,133,89,,2,2126,,1,1,Blue; Green; Red,04/04/2018
+432,31,male,170,194.00656,Brown,134,98,Own,4,2811,"<18,000",0,2,Yellow; Indigo; Violet,
+433,32,Female,164,141.97752,Black,,80,Rent,,1766,"<18,000",0,2,Green; Indigo; Red,14/10/2019
+434,42,male,174,167.55112,Blonde,119,76,Mortgage,1,2262,"18,000 to 30,000",0,1,Indigo; Violet; Green,17/09/2018
+435,75,Male,181,210.1003,Blonde,124,82,Own,,2216,,0,1,Green; Violet;,21/04/2019
+436,74,Male,171,207.01382,Blonde,124,79,Own,0,2186,"18,000 to 30,000",0,2,; Green; Indigo,06/12/2017
+437,22,male,181,176.14914,Blonde,119,,Rent,2,2653,"<18,000",0,2,Yellow; Green; Indigo,
+438,31,Male,175,180.77884,Brown,117,74,Rent,1,2419,"<18,000",0,2,Violet; Orange; Blue,17/01/2020
+439,51,male,180,195.54979,Blonde,133,95,Rent,3,2655,"18,000 to 30,000",1,1,Yellow; Green; Red,29/07/2017
+440,999,Male,178,234.35112,Blonde,135,94,Rent,2,2846,,1,2,Indigo; Green; Yellow,17/07/2018
+441,44,Male,173,180.33792,Black,119,73,Rent,0,2266,"18,000 to 30,000",0,2,Red; Yellow; Orange,29/08/2017
+442,62,Female,155,139.77292,Brown,118,82,Own,1,1720,"18,000 to 30,000",1,2,Indigo; Yellow; Violet,14/04/2019
+443,36,male,176,187.3927,Grey,128,89,Rent,,2416,"<18,000",0,2,Violet; Orange; Red,27/02/2020
+444,69,male,182,187.61316,Grey,121,84,Own,,2161,"50,000+",0,2,Red; Indigo; Blue,
+445,71,female,155,159.61449,Blonde,136,98,Own,0,1704,"<18,000",0,2,Green; Red;,19/02/2019
+446,40,male,180,184.74716,Red,123,90,Mortgage,0,2374,"<18,000",0,2,Violet; Red; Blue,10/04/2018
+447,22,Female,162,134.92274,Blonde,114,77,Mortgage,0,1865,"<18,000",0,2,Red; Indigo;,14/02/2020
+448,29,female,167,153.88248,Brown,121,86,Rent,0,1868,"<18,000",0,1,Green; Yellow; Violet,04/02/2019
+449,78,Female,162,147.48907,Black,,74,,0,1663,"50,000+",0,2,Blue; Violet; Indigo,12/06/2018
+450,71,female,170,162.03957,Brown,110,73,Rent,0,1734,"30,000 to 50,000",0,2,Orange; Yellow; Indigo,04/02/2019
+451,80,Female,156,154.32339,Brown,152,114,Rent,4,2073,"50,000+",0,1,Blue; Orange; Green,22/11/2019
+452,999,Female,160,127.20657,Blonde,109,70,Own,2,1969,"<18,000",0,2,Orange; Yellow; Red,
+453,62,female,162,141.53659,Brown,139,101,Mortgage,0,1674,"<18,000",0,1,Violet; Yellow; Blue,26/07/2018
+454,42,female,164,145.72537,Black,134,100,Own,1,1906,"18,000 to 30,000",0,2,Violet; Green; Blue,15/05/2019
+455,999,Female,161,175.48775,Grey,113,70,Rent,4,2369,"<18,000",1,1,Yellow; Green; Blue,17/10/2018
+456,999,Female,157,136.24551,Brown,135,91,Mortgage,,1786,"18,000 to 30,000",0,2,Red; Blue; Yellow,
+457,33,Male,175,209.4389,Blonde,128,85,Mortgage,4,3086,"<18,000",0,1,Blue; Violet; Red,23/11/2018
+458,80,Male,174,166.22835,Black,120,77,Own,0,1868,"<18,000",0,1,Green; Indigo; Blue,15/11/2019
+459,46,female,165,154.54385,Blonde,117,79,Own,2,2054,"<18,000",0,2,; Yellow; Red,13/09/2019
+460,44,Male,172,181.44023,Blonde,111,72,Rent,1,2409,"<18,000",0,2,Yellow; Violet; Indigo,16/02/2020
+461,63,Female,161,,Brown,,107,Rent,0,1693,"18,000 to 30,000",0,2,Green; Blue; Orange,02/08/2019
+462,71,female,161,167.1102,Brown,136,95,Rent,0,1772,"30,000 to 50,000",1,1,Orange; Green; Blue,08/09/2019
+463,48,male,178,197.31349,Blonde,121,75,Own,4,2654,"18,000 to 30,000",1,2,Violet; Red; Green,23/02/2020
+464,58,Female,169,166.88972,Blonde,114,73,Rent,0,1838,"<18,000",0,1,; Yellow; Violet,05/02/2020
+465,45,Female,163,190.92009,Brown,116,76,Rent,,2228,"18,000 to 30,000",0,2,Blue; Indigo; Violet,10/10/2017
+466,999,male,169,135.1432,Blonde,107,67,Own,0,1852,"<18,000",0,2,Orange; Yellow; Indigo,12/06/2019
+467,68,male,180,223.10754,Brown,139,98,Mortgage,1,2528,"18,000 to 30,000",0,2,Yellow; Indigo; Green,07/09/2018
+468,38,female,168,133.59998,Blonde,109,68,Rent,,2167,"18,000 to 30,000",1,2,Indigo; Orange; Green,30/01/2020
+469,55,Male,,194.88841,Blonde,134,96,Mortgage,3,2610,"18,000 to 30,000",0,2,Violet; Green; Orange,22/08/2017
+470,51,female,160,172.84221,Grey,115,80,Own,0,1871,"18,000 to 30,000",0,2,Green; Indigo; Yellow,23/03/2019
+471,30,female,164,143.74121,Blonde,114,79,,0,1828,"<18,000",0,2,Indigo; Yellow; Red,23/07/2017
+472,46,Male,178,197.97488,Black,119,83,Rent,2,2591,"<18,000",0,2,Green; Red; Blue,15/01/2018
+473,54,Female,158,148.59138,Grey,134,96,Rent,3,2055,"<18,000",0,2,Orange; Blue; Yellow,06/12/2018
+474,999,Male,179,186.95178,Black,113,76,Own,2,2378,"30,000 to 50,000",0,2,Violet; Yellow;,29/11/2017
+475,33,female,163,130.07259,Black,116,80,Own,4,2214,"<18,000",0,1,Red; Orange; Green,29/08/2017
+476,21,Female,164,166.44881,Red,112,70,Mortgage,4,2389,"<18,000",1,1,Blue; Indigo; Red,22/01/2020
+477,64,Male,175,161.59865,Red,114,71,Mortgage,1,2172,"30,000 to 50,000",0,2,Orange; Red; Green,15/08/2017
+478,999,Female,162,184.96762,Brown,129,88,,0,1964,"18,000 to 30,000",0,1,Green; Yellow; Blue,19/03/2020
+479,48,male,169,173.50359,Brown,114,80,Mortgage,,2348,"30,000 to 50,000",0,1,Yellow; Violet; Green,18/12/2018
+480,62,male,180,190.92009,Black,134,98,Mortgage,4,2615,"30,000 to 50,000",0,2,; Blue; Violet,10/05/2018
+481,34,female,166,163.36234,Blonde,131,84,Mortgage,,2284,"<18,000",1,1,Indigo; Yellow; Blue,
+482,60,female,158,,Black,114,82,Own,3,2010,"30,000 to 50,000",0,1,Indigo; Red; Orange,05/08/2019
+483,60,Female,163,185.18808,Black,127,93,Rent,1,1989,"18,000 to 30,000",0,2,Yellow; Violet; Red,16/12/2018
+484,75,male,173,159.39403,Blonde,135,88,Own,0,1935,"<18,000",0,1,Indigo; Red; Yellow,
+485,50,Male,162,144.4026,Brown,116,74,Own,0,1942,"<18,000",0,1,Violet; Red;,27/08/2018
+486,999,male,179,180.11745,Black,106,62,Own,2,2360,"18,000 to 30,000",1,2,Indigo; Green; Yellow,26/03/2019
+487,37,Female,165,186.29039,Brown,136,93,Mortgage,1,2104,"<18,000",1,2,Blue; Red; Violet,02/08/2017
+488,68,female,155,143.74121,Grey,105,63,Own,1,1688,"18,000 to 30,000",0,1,Orange; Blue; Indigo,17/09/2017
+489,44,male,170,170.63759,Blonde,110,67,Rent,0,2256,"30,000 to 50,000",0,2,Indigo; Green; Orange,02/09/2017
+490,79,male,171,192.0224,Red,125,89,Rent,0,2030,,0,2,Green; Orange; Yellow,08/05/2019
+491,29,Female,165,173.50359,Brown,122,82,Rent,,2076,"<18,000",0,2,Indigo; Violet; Red,01/09/2017
+492,33,female,158,147.70953,Red,120,82,Own,2,2054,"18,000 to 30,000",0,2,Orange; Red; Indigo,16/10/2019
+493,60,female,164,143.96169,Black,105,71,Own,4,2067,"18,000 to 30,000",1,2,Indigo; Green; Red,22/03/2019
+494,61,Female,165,166.44881,Blonde,118,76,Own,1,1929,"<18,000",0,2,; Violet; Yellow,11/02/2018
+495,53,female,157,172.18082,Blonde,144,103,Rent,3,2160,"<18,000",0,1,Blue; Green; Violet,25/02/2020
+496,25,female,164,140.65475,Grey,110,,Rent,4,2257,"18,000 to 30,000",1,2,Orange; Green; Blue,22/04/2018
+497,76,Male,179,156.96893,Black,108,70,Own,,1853,"50,000+",0,1,; ; Yellow,
+498,20,male,165,141.31613,Brown,112,74,Rent,2,2337,"18,000 to 30,000",1,2,Indigo; Green; Orange,07/01/2018
+499,68,Male,178,174.6059,Blonde,122,83,Mortgage,0,2124,"50,000+",0,2,Violet; Yellow; Indigo,18/03/2019
+500,60,Male,186,220.46201,Blonde,127,86,Own,0,2592,"30,000 to 50,000",0,2,; Orange;,21/08/2018
+501,53,female,161,183.20392,Brown,136,91,Own,2,2128,"18,000 to 30,000",1,1,Orange; Yellow; Green,29/12/2018
+502,69,Female,158,128.30888,Red,118,80,Mortgage,2,1812,"<18,000",0,2,Blue; Violet; Green,30/12/2019
+503,47,Male,183,233.02832,Blonde,127,,,1,2647,"18,000 to 30,000",1,2,Green; Violet; Blue,30/09/2019
+504,36,Male,175,215.83231,Grey,131,92,Rent,2,2789,"<18,000",1,1,Green; Orange; Violet,06/02/2018
+505,46,Male,179,129.85213,Brown,109,,Rent,0,1933,"18,000 to 30,000",0,1,Blue; Indigo; Violet,16/11/2018
+506,49,Male,183,150.57555,Black,106,73,Rent,1,2151,"<18,000",0,2,Red; Indigo; Yellow,02/09/2019
+507,41,male,179,182.763,Black,131,,Own,0,NR,"30,000 to 50,000",,2,Violet; Green; Red,14/08/2017
+508,59,Male,174,149.91415,Black,122,84,Own,,2036,"<18,000",0,2,Blue; Orange; Red,23/01/2018
+509,59,Male,179,,Black,117,73,Rent,0,2217,"30,000 to 50,000",0,1,Blue; Yellow; Indigo,13/04/2019
+510,43,Male,187,243.6105,Blonde,128,91,Rent,,2807,"30,000 to 50,000",0,2,Blue; Violet; Yellow,17/07/2018
+511,23,Male,165,164.6851,Black,121,78,Rent,0,2193,"<18,000",0,2,Indigo; Red; Green,13/06/2018
+512,31,Female,160,187.61316,Brown,133,97,Rent,0,2062,"<18,000",0,2,Yellow; Orange; Blue,24/03/2018
+513,24,male,171,,Brown,107,62,Own,4,2666,"<18,000",1,1,Violet; Blue; Red,09/10/2019
+514,999,Female,154,121.47456,Blonde,124,89,Rent,1,1711,"18,000 to 30,000",0,2,Indigo; Green; Red,
+515,67,Female,156,163.36234,Blonde,155,115,Own,0,1738,"50,000+",0,2,Yellow; Orange; Violet,23/11/2019
+516,22,Male,179,199.29765,Brown,128,83,Rent,,3041,"<18,000",1,2,Indigo; Violet; Orange,30/06/2018
+517,71,female,166,154.54385,Blonde,140,93,Mortgage,0,1674,"<18,000",0,2,; Orange; Red,29/11/2017
+518,25,Male,175,188.49501,,110,77,Mortgage,1,2547,"<18,000",0,2,Violet; Green; Orange,26/08/2018
+519,20,Female,156,160.27586,Brown,119,79,Rent,3,2187,"<18,000",1,2,Indigo; Green; Violet,10/02/2018
+520,40,Male,174,,Grey,103,58,Rent,4,2679,"<18,000",0,2,Green; Blue; Indigo,19/06/2019
+521,999,female,166,147.26862,Red,120,77,Mortgage,0,1705,"18,000 to 30,000",0,1,Orange; Indigo; Red,09/09/2017
+522,25,Male,174,199.73857,Red,128,87,Rent,2,2703,"18,000 to 30,000",0,2,Yellow; Violet;,10/03/2019
+523,999,female,156,140.87523,Red,110,73,,0,1602,"18,000 to 30,000",0,2,Violet; Green; Yellow,11/02/2018
+524,38,female,156,137.34782,Red,114,71,,,1895,"<18,000",1,2,Orange; Yellow; Blue,
+525,32,Male,173,169.53528,Brown,122,,,4,2681,"<18,000",0,2,Red; Violet; Indigo,24/10/2019
+526,25,female,160,147.92999,Black,113,73,Rent,2,2087,"<18,000",1,2,Red; Blue; Orange,07/07/2019
+527,35,male,167,166.00789,Blonde,112,71,Rent,2,2445,"<18,000",0,1,Blue; Indigo; Yellow,04/10/2017
+528,80,female,170,201.72273,Grey,133,93,,0,1885,"30,000 to 50,000",0,2,Yellow; Indigo; Green,10/08/2017
+529,32,female,161,135.1432,Blonde,128,88,Rent,4,2216,"18,000 to 30,000",1,2,Green; Indigo; Orange,13/06/2019
+530,60,female,158,165.78741,Black,141,95,Mortgage,2,1986,"50,000+",0,2,; Violet; Orange,31/01/2020
+531,999,female,161,169.9762,Red,134,99,Mortgage,0,1727,"30,000 to 50,000",0,2,Yellow; Blue; Violet,27/10/2019
+532,22,Male,169,161.59865,Black,115,74,,4,2743,,0,2,Yellow; Green; Blue,19/09/2017
+533,71,Female,163,126.98611,Grey,120,78,Mortgage,3,1913,"50,000+",0,2,Yellow; Indigo; Orange,09/05/2018
+534,34,male,,223.32802,Blonde,121,73,Rent,2,2812,"18,000 to 30,000",0,2,Blue; Violet; Green,
+535,39,Male,179,190.47917,Brown,119,80,Own,4,2714,"30,000 to 50,000",0,2,Green; Red; Indigo,16/10/2019
+536,51,,154,136.46599,Black,117,70,Own,2,1862,"30,000 to 50,000",0,1,Green; Indigo; Red,02/06/2019
+537,42,Male,176,177.47191,Brown,117,73,Own,,2357,"<18,000",0,2,Indigo; Orange; Green,10/07/2019
+538,80,Female,154,162.26003,Black,142,105,Mortgage,2,1871,,0,1,Violet; Yellow; Red,23/06/2018
+539,69,Female,163,171.96036,Red,138,103,Rent,,1819,,0,1,Green; Red;,07/08/2019
+540,999,Male,171,,Black,127,89,Own,2,2614,"50,000+",0,2,Red; Indigo;,29/11/2019
+541,75,Male,173,183.42438,Blonde,127,86,Rent,1,2177,"50,000+",0,2,Blue; Orange; Green,15/04/2019
+542,68,Female,162,162.26003,Brown,132,96,Mortgage,0,1756,"50,000+",,2,Green; Violet; Yellow,28/02/2018
+543,23,female,169,142.41844,Brown,117,73,Rent,2,2105,"<18,000",0,2,Red; Orange; Indigo,26/01/2018
+544,56,Male,175,168.21251,Grey,138,93,Own,1,2231,"<18,000",0,2,Yellow; Red; Orange,08/01/2018
+545,40,Male,179,207.01382,Black,132,92,Mortgage,0,2480,"30,000 to 50,000",1,1,Red; Yellow; Blue,12/09/2017
+546,62,Female,163,177.47191,Blonde,114,72,Rent,0,1802,"30,000 to 50,000",0,1,Orange; Yellow; Indigo,15/06/2019
+547,52,male,174,177.47191,Grey,108,70,Rent,1,2221,"50,000+",0,1,Orange; Violet; Green,
+548,63,male,170,184.52669,Brown,143,105,Own,0,2172,"18,000 to 30,000",0,1,Blue; Green; Red,15/01/2020
+549,53,Female,151,144.18214,Blonde,130,87,Mortgage,0,1684,"<18,000",0,2,Red; Green; Blue,22/08/2017
+550,71,Male,174,185.18808,Red,105,63,Rent,0,2182,,0,1,Indigo; Violet;,16/05/2019
+551,999,Male,184,219.3597,Blonde,123,86,Rent,0,2699,"<18,000",0,2,Violet; Blue; Green,
+552,40,female,162,157.85078,Blonde,119,76,Rent,2,2003,,1,2,Green; Blue; Orange,16/02/2018
+553,22,Male,165,162.92142,Blonde,117,79,Rent,2,2409,"<18,000",1,2,Orange; ; Violet,27/01/2018
+554,25,female,164,192.68379,Blonde,122,88,,2,2215,"<18,000",0,1,Red; Orange; Yellow,27/07/2019
+555,29,female,162,156.52802,Brown,118,71,Own,,2002,"<18,000",0,2,Red; Green;,02/10/2017
+556,23,male,173,,Blonde,124,83,Rent,0,2479,"18,000 to 30,000",0,2,Orange; Yellow;,06/06/2018
+557,72,male,171,,Brown,148,107,Rent,0,1879,"18,000 to 30,000",0,2,Blue; Violet; Indigo,
+558,76,Male,,,Black,145,109,Mortgage,0,2050,"50,000+",0,2,Orange; Indigo; Red,24/10/2018
+559,57,Female,,178.79468,,131,90,Rent,2,2101,"<18,000",0,1,Orange; Violet; Green,04/08/2018
+560,28,female,153,124.1201,Brown,119,71,Rent,2,1970,"<18,000",1,2,Green; Blue;,08/02/2020
+561,77,Male,,227.51678,Red,146,105,Own,0,2330,"18,000 to 30,000",0,1,Red; Indigo; Yellow,19/08/2018
+562,29,male,173,168.21251,Grey,117,73,Rent,,2364,"<18,000",0,2,Violet; Indigo; Blue,16/03/2019
+563,999,male,179,180.55838,Red,146,100,Mortgage,0,2048,"18,000 to 30,000",0,1,Yellow; Violet; Blue,15/12/2017
+564,24,Male,168,147.48907,Brown,119,78,Rent,1,2330,"18,000 to 30,000",0,2,Yellow; Orange; Green,
+565,52,male,169,169.9762,Black,132,94,Own,2,2311,"<18,000",0,2,Blue; Red; Violet,09/12/2017
+566,37,Male,181,186.06993,Blonde,120,78,Rent,,2404,"18,000 to 30,000",0,2,Green; Yellow; Violet,06/01/2018
+567,78,Male,167,187.61316,Brown,149,110,Own,0,2074,"30,000 to 50,000",0,2,Red; Yellow; Violet,10/03/2020
+568,70,female,160,143.74121,Black,115,74,Rent,1,1760,"30,000 to 50,000",0,1,Yellow; Violet; Indigo,07/03/2020
+569,73,Male,176,239.86266,Brown,144,112,Own,0,2446,"50,000+",1,2,Indigo; Green;,10/07/2017
+570,50,male,169,174.82637,Black,129,88,Own,0,2190,"<18,000",1,1,Orange; Yellow; Green,26/12/2018
+571,36,male,177,164.24419,Brown,112,72,Rent,4,2654,"18,000 to 30,000",1,1,Green; Violet; Red,25/12/2018
+572,42,male,,205.91151,Blonde,130,91,Rent,,2609,"<18,000",0,,Yellow; Indigo; Orange,27/02/2020
+573,23,Male,174,213.62769,Red,121,82,Rent,,2884,"<18,000",1,1,Orange; Yellow; Green,
+574,47,Female,163,174.6059,Brown,116,72,Rent,,1953,"18,000 to 30,000",0,2,Orange; Red; Blue,07/11/2019
+575,23,Female,160,154.54385,Red,105,65,Rent,3,2203,"<18,000",0,1,Blue; Green; Yellow,
+576,48,male,180,181.88115,Grey,122,80,Rent,1,2363,"30,000 to 50,000",,2,Blue; Orange; Violet,20/03/2019
+577,999,female,162,151.01646,Brown,121,82,Rent,1,2045,"<18,000",0,2,Indigo; Yellow; Red,22/07/2017
+578,42,Male,174,164.90558,Grey,125,79,Own,1,2322,"<18,000",1,1,Indigo; Blue; Yellow,02/11/2019
+579,70,Female,159,,Grey,135,94,Own,0,1865,"50,000+",0,2,Indigo; Violet; Blue,
+580,60,Male,175,165.12604,Brown,122,82,Rent,,2037,"<18,000",0,1,Red; Indigo; Orange,
+581,53,female,164,125.22241,Blonde,118,75,Own,,1649,"18,000 to 30,000",0,1,Indigo; Blue; Red,02/11/2017
+582,60,Female,159,124.34057,Red,118,76,Rent,2,1831,"18,000 to 30,000",1,2,; Yellow; Green,08/12/2017
+583,68,Female,173,199.51811,Black,137,94,Mortgage,1,2090,"50,000+",0,1,Violet; Red; Blue,23/11/2018
+584,53,Male,173,134.04089,Blonde,127,87,Own,0,NR,"50,000+",0,1,Indigo; Red; Blue,
+585,29,female,161,127.6475,Red,117,80,Own,0,1707,"18,000 to 30,000",,2,Indigo; Red; Orange,19/09/2017
+586,67,Female,162,144.62306,Black,107,73,Mortgage,0,1641,"18,000 to 30,000",0,2,Green; Yellow; Indigo,02/05/2019
+587,63,female,157,154.76431,Blonde,127,82,Own,0,1735,"30,000 to 50,000",0,1,Indigo; Red; Green,09/05/2018
+588,70,Male,167,151.01646,Brown,117,77,Own,0,1833,"18,000 to 30,000",0,2,Green; Orange; Red,08/08/2017
+589,57,Male,178,213.84814,Brown,117,77,,0,2407,"<18,000",0,2,Violet; Blue; Orange,16/04/2018
+590,51,female,163,146.16631,Black,133,93,Mortgage,0,1770,"30,000 to 50,000",0,2,Violet; Orange; Green,03/01/2020
+591,59,female,156,140.4343,Brown,131,85,Rent,0,1678,"<18,000",0,1,Violet; Green; Indigo,18/10/2017
+592,60,female,162,169.9762,Black,138,94,Own,0,1832,"18,000 to 30,000",0,2,Orange; Blue; Green,26/08/2019
+593,49,Male,185,194.88841,Blonde,117,81,Rent,,2368,"18,000 to 30,000",0,2,Green; Indigo; Yellow,12/12/2018
+594,71,Female,165,180.9993,Brown,130,93,Rent,0,1769,"18,000 to 30,000",0,2,Red; Orange; Blue,20/10/2017
+595,999,female,162,160.93726,Blonde,121,75,Own,1,1777,"50,000+",0,1,Orange; Blue;,26/02/2020
+596,41,Female,162,179.01514,Red,123,88,Rent,,1972,"<18,000",0,1,Indigo; Red;,04/12/2017
+597,63,male,177,,Black,135,97,,1,2388,"<18,000",1,1,Orange; Yellow;,
+598,57,Male,178,223.54848,Brown,120,80,Rent,0,2477,"18,000 to 30,000",0,2,Blue; Red; Green,16/08/2019
+599,43,Male,174,166.00789,Brown,120,78,Own,0,2096,"18,000 to 30,000",0,2,Orange; Green; Yellow,22/10/2017
+600,30,male,170,203.26596,Grey,136,96,Rent,2,2643,"30,000 to 50,000",0,2,Indigo; Violet; Orange,10/07/2019
+601,66,Male,181,205.02966,Blonde,129,90,Own,1,2450,"30,000 to 50,000",0,1,Yellow; Indigo; Blue,10/04/2019
+602,46,Female,169,173.50359,Blonde,121,88,Rent,,2106,"<18,000",0,1,Blue; ; Red,
+603,27,male,178,240.30357,Grey,132,97,Rent,,3080,"18,000 to 30,000",1,1,Blue; Violet; Red,09/01/2020
+604,33,male,,212.52538,Brown,127,89,Rent,3,2769,"18,000 to 30,000",1,2,Violet; Indigo; Blue,09/07/2018
+605,79,female,162,149.0323,Brown,127,80,Own,0,1597,"50,000+",0,2,Red; Yellow; Violet,29/10/2018
+606,30,Female,159,125.22241,Blonde,119,85,Rent,0,1729,"30,000 to 50,000",0,2,Blue; Indigo; Red,09/01/2018
+607,25,Male,174,159.17355,,121,80,Own,,2634,"<18,000",0,2,Indigo; Violet; Yellow,29/09/2018
+608,21,male,181,170.85805,Brown,111,68,Rent,4,2835,"<18,000",0,2,; Red; Indigo,29/11/2018
+609,39,Male,178,194.66795,Black,111,70,Rent,3,2710,"<18,000",1,2,Green; Indigo; Yellow,14/08/2018
+610,45,female,167,162.03957,Brown,114,77,Rent,0,1858,"30,000 to 50,000",0,2,Red; Blue; Violet,14/09/2019
+611,44,male,175,,,124,81,Rent,1,2402,"18,000 to 30,000",1,2,Indigo; Orange; Yellow,12/10/2018
+612,76,Male,177,145.72537,Blonde,119,78,Own,1,1904,"30,000 to 50,000",0,1,Yellow; Orange; Blue,21/08/2017
+613,53,male,181,210.76167,Grey,115,75,Rent,3,2720,"18,000 to 30,000",0,2,; Green; Violet,21/12/2018
+614,74,Male,171,188.93593,Grey,139,106,Own,2,2285,"30,000 to 50,000",1,1,Orange; Green; Blue,
+615,24,female,152,121.47456,Brown,116,74,Rent,4,2139,"<18,000",1,2,Yellow; Orange; Blue,11/11/2017
+616,65,male,171,166.88972,Grey,121,76,Rent,0,2038,"30,000 to 50,000",0,1,Indigo; Green; Red,04/01/2018
+617,40,female,163,132.27721,Blonde,116,77,,4,2200,"<18,000",0,2,Blue; Red; Orange,30/07/2019
+618,38,male,172,168.65343,Brown,113,76,Rent,3,2563,"<18,000",1,2,Yellow; Red; Orange,
+619,26,male,181,,Blonde,112,73,Rent,3,2663,"18,000 to 30,000",0,2,Indigo; Red; Yellow,04/01/2018
+620,48,male,182,214.73,Red,121,78,Rent,3,2782,"18,000 to 30,000",,2,Indigo; Yellow; Blue,02/12/2018
+621,50,Male,175,153.22108,Blonde,132,96,Rent,1,2201,"50,000+",1,2,Blue; Yellow; Red,24/11/2017
+622,51,Female,155,,Grey,128,88,Rent,1,1818,"30,000 to 50,000",0,1,Yellow; Red; Blue,09/08/2019
+623,62,female,,,,130,95,Mortgage,,1801,"<18,000",1,2,Green; Orange; Blue,
+624,37,Female,163,145.72537,Blonde,118,77,Rent,1,1914,"<18,000",0,2,Blue; Yellow; Violet,04/04/2019
+625,75,male,173,175.48775,Brown,136,93,Rent,0,1982,"18,000 to 30,000",0,2,Yellow; Blue; Indigo,07/02/2020
+626,51,male,176,218.25739,Grey,128,96,Own,1,2535,"<18,000",0,1,Red; Yellow; Violet,13/01/2019
+627,44,Male,177,168.21251,Brown,111,73,Rent,1,2304,"<18,000",1,2,Violet; Orange;,30/10/2019
+628,75,female,164,186.73131,Brown,128,95,Mortgage,0,1826,"30,000 to 50,000",0,2,Green; Violet; Blue,10/01/2019
+629,24,female,164,166.22835,Grey,121,81,Rent,4,2373,"<18,000",1,2,Red; Violet; Indigo,14/02/2019
+630,58,male,175,215.17091,Black,137,96,Rent,0,2447,"<18,000",0,1,Green; Orange; Violet,01/09/2018
+631,60,Female,160,171.96036,Brown,111,70,Mortgage,1,1861,"<18,000",1,1,Yellow; Violet;,
+632,999,female,160,150.35507,Grey,130,92,Own,,1679,"<18,000",0,1,Green; Blue; Violet,01/08/2017
+633,31,female,166,151.01646,Blonde,110,79,Own,4,2285,"<18,000",1,2,Orange; Green; Red,22/03/2020
+634,44,Female,160,143.74121,Blonde,130,91,Rent,0,1781,,0,1,Indigo; Red; Orange,26/06/2019
+635,64,male,178,210.98213,Brown,132,91,Mortgage,2,2497,,,2,Blue; Yellow; Violet,15/04/2019
+636,30,Male,179,186.29039,Grey,119,83,Own,0,2450,"<18,000",0,1,Green; Yellow; Indigo,07/05/2018
+637,45,female,163,180.55838,Black,125,86,Mortgage,,1995,"18,000 to 30,000",0,1,Green; Violet; Red,01/12/2018
+638,67,female,154,157.85078,Brown,129,87,Own,0,1731,"50,000+",0,2,Yellow; Red; Green,11/02/2020
+639,20,Male,182,203.26596,Brown,115,77,Rent,4,2990,"<18,000",0,2,Green; Orange; Blue,09/02/2018
+640,52,Male,168,191.36102,Blonde,121,80,Own,0,2153,"<18,000",0,1,Green; Violet; Indigo,23/11/2019
+641,35,Male,179,194.88841,Black,132,97,Mortgage,0,2490,"<18,000",0,1,Blue; Indigo; Green,21/08/2019
+642,68,female,164,147.70953,Black,124,84,Rent,1,1801,"18,000 to 30,000",0,2,Violet; Blue; Orange,20/07/2019
+643,46,Male,172,221.34386,Red,,96,Rent,1,2579,"18,000 to 30,000",0,2,; Red; Violet,06/02/2020
+644,38,Female,155,145.28445,Blonde,112,74,,0,1782,"<18,000",0,2,Indigo; Red; Green,27/05/2019
+645,79,Female,166,189.1564,Blonde,144,98,Own,0,1851,"18,000 to 30,000",0,1,Blue; Green; Red,22/06/2018
+646,53,Male,178,175.26729,Blonde,114,78,Own,0,2241,"<18,000",0,2,Violet; Red; Indigo,18/02/2020
+647,24,female,159,125.66334,Red,109,69,Rent,2,1944,"<18,000",0,2,Yellow; Blue; Red,09/11/2018
+648,31,male,170,173.28313,Brown,119,85,Rent,4,2631,"18,000 to 30,000",0,1,Orange; Indigo; Blue,27/08/2019
+649,79,Male,177,212.96629,Black,125,89,Rent,0,2242,"30,000 to 50,000",1,1,Blue; Violet; Green,31/03/2019
+650,64,Male,178,174.82637,Brown,143,98,Mortgage,,2100,"<18,000",0,2,Orange; Blue; Indigo,06/03/2020
+651,75,female,156,153.22108,Blonde,143,102,,1,1719,"18,000 to 30,000",,2,Orange; Indigo; Yellow,18/01/2019
+652,999,Female,164,163.14188,Grey,121,81,Own,1,1873,"30,000 to 50,000",0,1,Blue; Green; Orange,30/12/2019
+653,24,male,174,220.68246,Brown,116,83,Rent,0,2632,"<18,000",0,2,Red; Blue; Violet,04/11/2018
+654,47,male,176,175.26729,Black,126,82,Rent,0,2229,"<18,000",0,1,Yellow; Violet; Indigo,30/11/2018
+655,68,female,160,128.97028,Grey,108,63,Rent,1,1688,"<18,000",0,2,Indigo; Red; Green,02/09/2019
+656,44,female,160,160.27586,Blonde,132,99,Mortgage,2,2047,"30,000 to 50,000",0,2,Violet; Blue; Indigo,29/09/2018
+657,999,Female,157,129.19073,Brown,116,,Mortgage,4,2180,"<18,000",1,2,Blue; Violet; Green,29/10/2018
+658,40,female,157,139.99336,Black,118,75,Own,,1743,"18,000 to 30,000",0,2,Violet; Indigo; Orange,09/07/2018
+659,68,Male,,160.27586,Grey,107,62,Rent,0,2064,"50,000+",0,2,Yellow; Orange; Blue,26/02/2018
+660,68,female,167,195.77026,Black,143,98,Rent,4,2356,,0,1,Red; Yellow; Orange,09/11/2017
+661,77,Male,178,202.82504,Blonde,145,102,Rent,1,2282,"50,000+",0,1,Violet; Yellow; Orange,
+662,45,female,154,149.6937,Black,119,77,Rent,2,1988,"30,000 to 50,000",0,2,Orange; Indigo; Blue,12/09/2017
+663,22,female,165,181.88115,Grey,125,86,Rent,1,2165,"18,000 to 30,000",0,1,Orange; Green; Indigo,22/08/2019
+664,26,,170,192.24286,Brown,133,93,Mortgage,0,2471,"<18,000",0,2,Yellow; Red; Violet,19/03/2018
+665,31,Female,165,151.01646,Black,129,85,,4,2320,"30,000 to 50,000",1,,; Blue; Violet,12/08/2017
+666,42,Female,162,184.96762,Red,118,,Own,0,2010,"<18,000",0,2,Violet; Indigo; Blue,02/12/2018
+667,78,Female,161,147.92999,Blonde,136,94,Rent,1,1709,"18,000 to 30,000",1,1,Indigo; Red; Yellow,28/10/2017
+668,55,Male,178,173.06267,Blonde,123,79,Rent,0,2197,"<18,000",0,1,Green; Violet; Blue,26/01/2020
+669,71,Female,166,153.44154,Black,130,82,Own,0,1701,"30,000 to 50,000",0,1,Red; Violet;,03/10/2019
+670,73,female,165,184.08577,Blonde,144,107,Own,0,1842,"50,000+",0,1,Red; Violet; Green,03/01/2019
+671,69,Male,180,163.58279,Black,120,78,Rent,,2050,"30,000 to 50,000",0,2,Red; Violet;,13/01/2020
+672,45,female,163,151.01646,Blonde,128,85,Rent,0,1801,"18,000 to 30,000",0,2,Red; Yellow; Violet,
+673,54,female,164,138.67061,Grey,126,78,Mortgage,0,1729,"<18,000",0,1,Indigo; Orange; Yellow,29/11/2017
+674,34,male,172,179.89699,Black,127,87,Rent,0,2281,"18,000 to 30,000",0,1,Blue; Indigo; Violet,03/05/2019
+675,40,Male,170,158.95309,Red,131,,Rent,0,2133,"18,000 to 30,000",1,2,Red; Indigo; Violet,14/09/2018
+676,61,Male,181,209.87982,Blonde,132,94,Mortgage,,2337,"30,000 to 50,000",0,2,Indigo; Green; Yellow,
+677,29,Female,163,167.77158,Black,121,81,Rent,,2155,"<18,000",1,2,Yellow; Blue; Violet,14/05/2018
+678,71,male,174,150.57555,Grey,106,67,Own,2,2102,"18,000 to 30,000",0,2,Indigo; Blue;,05/05/2019
+679,28,male,169,142.6389,Blonde,115,79,Mortgage,1,2263,"<18,000",0,2,Indigo; Orange; Yellow,27/11/2017
+680,29,Female,160,160.27586,Brown,123,81,Rent,4,2379,"18,000 to 30,000",0,1,Indigo; Red; Violet,28/12/2018
+681,40,Male,174,213.62769,Black,137,100,Rent,2,2762,"18,000 to 30,000",0,2,Indigo; Yellow; Green,14/02/2018
+682,25,female,163,168.65343,Blonde,115,69,,4,2353,"<18,000",,2,Blue; Red; Orange,14/08/2019
+683,29,female,159,145.94583,Brown,124,87,Rent,0,1839,"30,000 to 50,000",0,2,Green; Indigo; Blue,03/05/2018
+684,77,Female,161,156.30756,Blonde,134,92,Own,2,1841,"18,000 to 30,000",0,2,Orange; Green; Violet,12/07/2017
+685,999,Male,175,179.45607,Blonde,107,67,Rent,4,2876,"18,000 to 30,000",,2,Indigo; Orange; Green,17/09/2018
+686,39,female,165,138.89107,Blonde,124,81,Rent,1,1899,"18,000 to 30,000",0,2,Yellow; Blue; Orange,25/03/2020
+687,29,Male,172,179.67653,Blonde,112,74,Rent,3,NR,"<18,000",1,1,Yellow; Red; Indigo,26/02/2020
+688,32,Female,161,144.84352,Black,123,71,Rent,2,2025,"<18,000",1,1,; Red; Indigo,20/12/2019
+689,62,Male,182,204.58875,Black,137,96,Rent,1,2468,"50,000+",0,2,Blue; Indigo; Red,01/12/2018
+690,57,Female,155,115.08117,Brown,118,75,Rent,0,1592,"<18,000",0,1,Green; Red; Indigo,
+691,62,female,159,196.21118,Blonde,127,88,Mortgage,2,2097,"50,000+",0,1,Yellow; Orange; Violet,16/06/2019
+692,48,female,165,156.96893,Blonde,119,84,Rent,1,1874,"18,000 to 30,000",0,2,Indigo; Blue; Red,
+693,52,Female,160,149.91415,Red,118,80,Rent,0,1762,"<18,000",0,1,Orange; Yellow;,22/01/2018
+694,21,female,159,158.29172,Brown,128,86,Rent,0,1957,"<18,000",0,1,Violet; Green; Indigo,06/09/2018
+695,56,Male,173,135.1432,Red,117,78,,1,2034,"18,000 to 30,000",0,1,Indigo; Blue; Yellow,04/08/2017
+696,70,Male,184,188.05409,Red,122,78,Own,0,2201,"30,000 to 50,000",0,2,Orange; Violet; Green,
+697,33,Female,165,128.30888,Blonde,115,74,Rent,0,1720,"<18,000",0,1,Orange; Blue; Red,31/01/2018
+698,39,female,160,147.48907,Red,109,71,Rent,1,1916,"<18,000",1,2,Green; Violet; Yellow,
+699,999,male,175,162.03957,Blonde,105,61,Rent,1,2225,"<18,000",0,2,Indigo; Yellow; Orange,29/07/2017
+700,27,male,176,166.66927,Blonde,125,81,Rent,2,2492,"<18,000",0,2,Green; Blue; Indigo,08/11/2019
+701,76,Male,172,174.38544,Blonde,130,91,Mortgage,0,2017,"50,000+",0,1,Red; Green; Violet,06/07/2019
+702,77,Male,181,203.92735,Brown,134,99,Mortgage,0,2292,"30,000 to 50,000",0,2,Yellow; Red; Violet,27/04/2019
+703,24,female,158,184.30623,Brown,123,81,Rent,,2448,"<18,000",1,2,Blue; Violet; Yellow,21/10/2018
+704,999,Male,172,152.55969,Red,115,77,Rent,3,2465,"<18,000",1,2,Green; Indigo; Blue,30/01/2019
+705,63,male,169,141.97752,Blonde,113,73,Rent,3,2095,"18,000 to 30,000",0,2,Green; Yellow; Violet,21/07/2017
+706,25,female,,183.64485,Red,118,79,Rent,,2434,"18,000 to 30,000",1,2,Indigo; Red; Green,11/09/2017
+707,73,Female,158,95.90097,Red,129,84,Mortgage,1,1511,"50,000+",0,2,Indigo; Red; Violet,08/01/2020
+708,38,Male,172,194.00656,Brown,131,93,Rent,0,2391,"18,000 to 30,000",0,2,Green; Orange; Violet,06/12/2017
+709,78,female,165,152.78017,Brown,125,89,Own,0,1668,"18,000 to 30,000",0,1,Indigo; Red; Orange,29/01/2018
+710,999,Female,160,130.73396,Blonde,126,87,Rent,,1743,"18,000 to 30,000",0,2,Green; Blue; Indigo,18/09/2019
+711,30,female,162,147.48907,Brown,126,87,Rent,0,1846,"18,000 to 30,000",0,2,Orange; Blue; Indigo,09/01/2018
+712,999,female,159,121.2541,Blonde,128,90,Own,0,1553,"18,000 to 30,000",0,2,Blue; Orange; Yellow,23/02/2020
+713,76,male,184,157.85078,Blonde,113,74,Own,0,1931,"30,000 to 50,000",0,2,Green; Violet; Red,
+714,999,Male,187,246.69698,Brown,127,89,Rent,4,3253,"18,000 to 30,000",1,2,Blue; Red; Yellow,
+715,65,male,180,209.21844,Red,128,79,,0,2284,"18,000 to 30,000",0,1,Red; Yellow; Blue,04/08/2018
+716,63,female,167,153.22108,Blonde,144,108,Own,2,1930,"18,000 to 30,000",0,,Indigo; Violet; Green,20/06/2018
+717,46,Male,179,167.33066,Blonde,100,68,Mortgage,0,2198,"<18,000",0,2,Orange; Indigo; Red,10/08/2017
+718,999,Male,172,198.63626,Brown,143,104,Mortgage,0,2139,"18,000 to 30,000",0,2,Violet; Blue; Orange,01/09/2018
+719,52,Male,174,204.58875,Black,132,96,Rent,0,2411,"<18,000",0,2,Red; Yellow; Green,04/12/2018
+720,68,Male,175,213.40723,Black,123,83,Own,0,2253,"<18,000",0,2,Green; Yellow; Violet,16/09/2018
+721,77,Male,168,138.67061,Brown,126,88,Rent,3,2090,"30,000 to 50,000",0,2,Orange; Green; Violet,04/06/2019
+722,68,female,161,161.15771,Black,149,113,Own,1,1842,"30,000 to 50,000",1,2,Indigo; Violet; Blue,23/07/2019
+723,73,Female,160,132.27721,Blonde,109,77,Mortgage,,1677,"30,000 to 50,000",0,2,Yellow; Violet; Indigo,07/11/2017
+724,999,Male,180,192.68379,Black,117,,Rent,4,2871,"<18,000",1,2,Blue; Indigo; Green,01/11/2017
+725,22,Male,173,183.86531,Brown,117,84,Rent,4,2812,"<18,000",1,2,Yellow; Orange; Violet,03/02/2020
+726,78,male,186,199.07719,Blonde,149,107,Own,1,2327,"18,000 to 30,000",0,2,Red; Orange; Indigo,17/12/2019
+727,79,Male,173,,Red,113,74,Mortgage,0,2042,,0,1,Violet; Red; Yellow,05/04/2019
+728,40,Female,171,150.79601,Blonde,118,78,Rent,3,2095,"18,000 to 30,000",1,2,Yellow; Violet; Red,25/07/2018
+729,53,Female,160,166.22835,Red,119,,Mortgage,0,1835,"18,000 to 30,000",0,2,Violet; Orange; Red,
+730,49,male,183,160.7168,Brown,125,89,Rent,0,2210,"18,000 to 30,000",0,2,Indigo; Green; Yellow,23/06/2019
+731,46,Female,164,141.75708,Grey,106,68,Mortgage,0,1774,"18,000 to 30,000",0,1,Green; Yellow; Blue,04/11/2017
+732,66,Female,166,210.32076,Brown,126,90,Mortgage,,1947,"18,000 to 30,000",0,2,Yellow; Blue; Orange,08/05/2018
+733,76,male,179,202.82504,Red,119,81,Rent,1,2314,"<18,000",0,2,Blue; Red; Violet,
+734,53,Male,172,157.40987,Blonde,117,73,Mortgage,0,2136,"50,000+",0,2,Yellow; Green; Indigo,10/09/2018
+735,999,female,160,171.96036,Brown,150,107,Mortgage,,1659,"18,000 to 30,000",0,1,Orange; Violet; Red,10/03/2018
+736,80,Female,164,111.77424,Blonde,114,,Rent,,1464,"30,000 to 50,000",0,2,Indigo; Green; Blue,17/02/2018
+737,58,,162,169.09435,Black,126,82,Own,0,1797,"18,000 to 30,000",0,2,Violet; Red; Indigo,
+738,41,Female,157,152.78017,Blonde,122,83,Own,1,1937,"30,000 to 50,000",0,2,; Violet; Yellow,16/10/2017
+739,36,male,164,182.98346,Brown,127,,Own,1,2365,"18,000 to 30,000",1,2,Indigo; Green; Yellow,11/04/2018
+740,37,male,179,216.27322,Blonde,116,77,Rent,2,2738,"18,000 to 30,000",1,2,Violet; Yellow; Red,
+741,70,male,180,212.08444,Brown,148,105,Rent,,2457,"<18,000",1,2,Red; Indigo; Green,29/05/2019
+742,75,Male,,177.69237,Blonde,130,92,Mortgage,1,2074,"30,000 to 50,000",0,2,Red; ; Indigo,28/09/2017
+743,20,male,178,184.30623,Black,114,67,Rent,4,2900,"18,000 to 30,000",1,2,Indigo; Yellow; Red,
+744,48,male,169,153.662,Black,132,91,Own,0,2027,"<18,000",0,2,Green; Red; Violet,18/12/2018
+745,57,Female,,211.20261,Red,122,81,Mortgage,0,2004,"30,000 to 50,000",0,1,; Violet; Indigo,08/07/2017
+746,79,male,176,,Brown,139,100,Own,0,2106,"18,000 to 30,000",0,2,Yellow; Violet; Green,12/12/2018
+747,57,Female,161,145.28445,Black,141,103,Rent,1,1812,"<18,000",0,1,Orange; Green; Blue,24/04/2019
+748,65,Male,174,141.53659,Grey,125,82,Own,0,1855,"18,000 to 30,000",0,2,Violet; Indigo; Yellow,07/02/2019
+749,56,Female,153,144.84352,Brown,142,,Rent,3,2021,"30,000 to 50,000",0,2,Yellow; Blue; Red,14/12/2018
+750,63,male,175,222.66663,Black,147,107,Mortgage,1,2481,"50,000+",0,1,Yellow; Orange; Indigo,24/02/2018
+751,999,female,173,194.66795,Black,132,93,Rent,0,1857,"30,000 to 50,000",0,2,Orange; Yellow;,24/09/2019
+752,26,Male,174,145.94583,Brown,103,58,Rent,,2212,"<18,000",0,1,Indigo; Yellow; Blue,28/01/2020
+753,31,male,170,187.17224,Red,126,83,Own,3,2716,"<18,000",1,1,Orange; Violet; Indigo,20/10/2019
+754,20,Female,162,173.72406,Red,122,76,Rent,4,2432,"<18,000",1,2,Yellow; Orange; Red,25/02/2018
+755,49,male,178,217.59599,Red,106,65,Rent,0,2549,"18,000 to 30,000",0,2,Orange; Green; Blue,19/01/2019
+756,68,Male,,195.99072,Brown,126,82,Rent,0,2186,"18,000 to 30,000",0,2,Indigo; ; Green,17/10/2019
+757,69,male,178,186.95178,Blonde,113,77,Mortgage,0,2152,"18,000 to 30,000",0,1,Blue; Yellow; Indigo,10/04/2018
+758,44,Male,170,196.6521,Grey,132,97,Rent,4,2770,"<18,000",0,2,Green; Violet; Orange,05/11/2018
+759,69,Female,166,156.96893,Blonde,118,75,Mortgage,0,1676,"18,000 to 30,000",0,1,Red; Indigo; Yellow,22/02/2020
+760,30,Male,173,141.97752,Grey,112,68,Rent,4,2521,"18,000 to 30,000",1,2,Orange; Green; Red,06/12/2017
+761,21,Female,,133.59998,Red,124,85,Rent,0,1807,"<18,000",0,1,Red; Green; Violet,18/03/2020
+762,56,Female,167,119.26994,Blonde,94,,Rent,,1595,"18,000 to 30,000",0,2,Red; Orange; Blue,15/11/2017
+763,21,female,162,185.18808,Brown,121,82,Rent,4,2442,"<18,000",1,2,Blue; Green; Red,26/03/2019
+764,999,male,182,182.10161,Red,125,78,Own,0,NR,"30,000 to 50,000",0,1,Blue; Indigo; Yellow,03/04/2018
+765,31,female,163,173.50359,Red,121,79,Rent,2,2190,"30,000 to 50,000",0,2,Indigo; Violet; Red,29/03/2018
+766,999,Female,163,175.04683,Blonde,134,91,Mortgage,,2316,"30,000 to 50,000",1,2,Orange; Indigo; Yellow,30/09/2017
+767,46,male,186,206.57289,Brown,125,74,Mortgage,1,2608,"<18,000",1,1,Green; Blue; Indigo,28/04/2018
+768,43,Male,173,195.32933,Red,126,90,Rent,3,2638,"30,000 to 50,000",0,1,Indigo; Blue; Yellow,29/01/2018
+769,23,Male,173,160.49634,Black,123,88,Rent,,2640,"18,000 to 30,000",1,2,Orange; Violet; Indigo,29/01/2019
+770,28,Female,155,134.26137,Brown,121,79,Rent,2,2005,"<18,000",0,2,Green; Violet; Blue,
+771,48,male,169,171.29897,Black,119,85,Rent,1,2258,"18,000 to 30,000",0,2,Green; Indigo;,16/12/2018
+772,999,Male,181,199.07719,Black,124,87,Rent,0,2231,"30,000 to 50,000",0,2,Yellow; Orange; Violet,09/04/2019
+773,999,male,179,191.14055,Black,116,78,Rent,0,2373,"<18,000",0,2,Red; Orange; Violet,07/07/2018
+774,60,female,162,161.15771,Blonde,135,93,Own,0,1783,"18,000 to 30,000",1,1,Red; Indigo; Violet,20/08/2018
+775,49,Female,163,123.89964,Brown,108,65,Mortgage,,1777,"<18,000",0,1,Green; Violet; Blue,01/07/2017
+776,42,male,165,162.70096,Brown,119,,Rent,4,2572,"<18,000",0,1,Blue; Orange; Violet,25/10/2018
+777,65,male,177,167.1102,Blonde,,75,Own,1,NR,"30,000 to 50,000",,1,; Red; Orange,09/01/2019
+778,79,Female,160,178.79468,Black,148,110,Own,0,1784,"18,000 to 30,000",0,2,Orange; Violet; Red,21/09/2018
+779,33,male,176,220.02109,Blonde,133,95,Own,,2541,"<18,000",0,1,Blue; Green; Orange,13/07/2019
+780,57,Female,157,156.0871,Brown,136,95,Own,0,1714,"30,000 to 50,000",0,1,Indigo; Orange; Violet,22/10/2017
+781,37,male,182,199.07719,Black,121,76,Rent,0,2443,"<18,000",0,2,Blue; Yellow; Green,05/01/2019
+782,53,female,162,154.76431,Black,123,83,Own,4,2180,"18,000 to 30,000",1,2,Blue; Green; Indigo,
+783,59,male,176,180.77884,Black,126,78,Rent,0,2219,"30,000 to 50,000",0,1,Orange; Red; Blue,25/09/2019
+784,59,Female,156,148.59138,Brown,129,89,Own,4,2050,"50,000+",0,2,Indigo; Blue; Green,23/01/2019
+785,44,Male,177,181.66069,Grey,118,78,Rent,4,2664,"<18,000",0,1,Indigo; Red; Green,14/10/2017
+786,52,Female,158,138.0092,Brown,119,77,,2,1855,"30,000 to 50,000",0,2,Blue; Violet; Green,01/06/2018
+787,33,Female,166,168.65343,Brown,125,86,Rent,1,2039,,0,2,Indigo; Yellow; Orange,16/03/2020
+788,68,Female,159,136.90691,Red,144,98,Rent,0,1596,"30,000 to 50,000",,2,Yellow; Orange; Blue,16/11/2017
+789,67,Male,167,146.38676,Grey,127,91,Rent,0,1873,"18,000 to 30,000",0,2,Orange; Yellow;,01/10/2017
+790,77,male,172,185.84947,,142,96,Own,,2055,"50,000+",0,2,Blue; Red; Orange,02/11/2018
+791,38,Male,168,185.629,,130,91,Mortgage,0,2389,"30,000 to 50,000",0,2,Yellow; Violet; Blue,27/03/2019
+792,30,Female,163,146.60722,Red,114,72,Rent,0,1846,"<18,000",0,1,Yellow; Indigo; Violet,14/09/2019
+793,34,Male,175,198.85672,Brown,125,95,Mortgage,1,2533,"<18,000",0,2,Yellow; Red; Blue,25/04/2018
+794,49,female,,163.80327,Brown,110,68,Rent,2,2080,"18,000 to 30,000",1,1,Indigo; Blue; Orange,08/04/2019
+795,999,male,180,154.98479,Brown,,81,Rent,0,2081,"18,000 to 30,000",0,2,Green; Blue; Violet,
+796,30,Male,175,194.88841,Blonde,124,84,Rent,0,2480,"<18,000",0,2,Green; Yellow; Indigo,28/01/2019
+797,69,Female,163,135.58414,Brown,134,93,Own,0,1645,"<18,000",0,2,Red; Green; Violet,31/08/2018
+798,38,Male,177,229.94188,Blonde,139,99,Rent,3,2820,"30,000 to 50,000",1,2,Green; Violet; Yellow,07/08/2017
+799,54,female,166,181.21976,Brown,120,81,Rent,3,2197,"<18,000",1,2,Red; Indigo; Blue,15/12/2017
+800,999,female,160,147.26862,Brown,133,99,Mortgage,0,1701,"<18,000",0,1,Orange; Green; Red,17/04/2019
+801,20,Female,170,161.81911,Brown,126,90,Rent,2,2174,"<18,000",0,1,Indigo; Blue; Green,25/09/2017
+802,28,Male,178,193.12471,Blonde,,90,Rent,1,2591,"<18,000",0,,Violet; Blue; Red,15/08/2018
+803,54,female,157,164.02373,Blonde,136,95,Mortgage,2,1961,"18,000 to 30,000",1,1,Yellow; Violet; Blue,
+804,34,male,176,143.52075,Grey,98,56,Rent,4,2571,"30,000 to 50,000",0,2,Green; Violet; Orange,29/07/2018
+805,60,female,159,160.93726,Black,119,80,Mortgage,1,1806,"50,000+",1,2,Blue; Orange; Green,30/08/2019
+806,66,Female,168,142.85939,Brown,141,99,Mortgage,0,1674,"30,000 to 50,000",0,2,Violet; Orange; Green,25/03/2019
+807,75,female,171,173.50359,Red,131,81,Mortgage,0,1755,"18,000 to 30,000",0,2,Green; Violet;,19/11/2018
+808,51,Male,178,183.64485,Black,129,89,Own,2,2461,"18,000 to 30,000",0,2,Red; Violet; Indigo,01/11/2019
+809,40,Female,164,150.57555,Brown,117,81,Rent,2,2033,"30,000 to 50,000",1,2,Indigo; Blue; Red,
+810,45,male,180,216.71416,Black,124,86,Own,0,2509,"18,000 to 30,000",0,2,Violet; Orange; Red,07/11/2017
+811,54,Female,162,158.07124,Brown,118,79,Own,,1827,"18,000 to 30,000",0,1,Green; Violet; Red,26/02/2018
+812,71,male,170,,Blonde,116,80,Own,,2216,"50,000+",0,2,Orange; Red; Green,
+813,28,male,170,189.81778,Blonde,129,92,Rent,,2690,"<18,000",0,2,Yellow; Red; Indigo,13/03/2019
+814,49,Male,181,199.07719,Black,122,86,Rent,0,2375,"50,000+",0,1,Orange; Indigo; Red,23/04/2019
+815,67,male,177,158.73264,Blonde,129,,Mortgage,1,2066,"<18,000",0,2,Yellow; Orange; Red,27/05/2019
+816,57,Male,171,168.21251,Blonde,123,76,Rent,,2046,"<18,000",0,1,Violet; Red; Indigo,27/09/2017
+817,61,Male,177,175.04683,Brown,117,75,Rent,0,2151,"18,000 to 30,000",0,2,Yellow; Violet; Orange,08/06/2019
+818,56,Female,161,112.65608,Black,125,84,Rent,2,1772,,1,2,Red; Orange; Violet,17/08/2019
+819,39,Female,158,124.34057,Brown,111,77,Own,3,2066,"18,000 to 30,000",0,1,Yellow; Red; Violet,27/06/2019
+820,47,Male,173,156.30756,Brown,115,79,,2,2263,"18,000 to 30,000",1,2,Violet; Yellow; Red,11/11/2019
+821,72,male,186,181.21976,,127,93,Rent,1,2233,"18,000 to 30,000",0,1,Violet; Red; Blue,21/12/2019
+822,45,Female,159,,Blonde,133,93,,4,2270,"<18,000",0,2,Orange; Indigo; Blue,08/05/2018
+823,73,female,172,169.9762,Grey,124,76,Rent,1,1882,"30,000 to 50,000",0,1,Violet; Indigo; Yellow,30/10/2017
+824,40,Female,165,147.70953,Grey,126,92,Rent,0,1835,"18,000 to 30,000",0,1,Red; Yellow; Green,30/09/2017
+825,60,male,179,194.66795,Blonde,141,96,Mortgage,0,2211,"30,000 to 50,000",0,1,Indigo; Orange; Yellow,08/01/2018
+826,41,female,165,162.26003,Grey,,,Rent,2,2112,"<18,000",0,1,Green; Indigo; Blue,23/09/2019
+827,73,Male,175,164.6851,Black,143,107,Mortgage,1,2071,"50,000+",0,1,Violet; Orange; Red,
+828,27,female,163,145.94583,Grey,124,89,Rent,2,2105,"<18,000",1,2,Red; Orange; Violet,08/07/2019
+829,43,Female,161,153.88248,Blonde,123,87,Rent,,1925,"<18,000",0,2,Orange; Blue; Green,10/05/2018
+830,59,female,158,117.06532,Blonde,122,83,Own,0,1628,"<18,000",0,2,Red; Violet; Blue,04/01/2020
+831,54,female,156,,Blonde,,80,Mortgage,2,1732,"18,000 to 30,000",1,2,Orange; Green;,08/08/2017
+832,63,female,156,166.22835,Blonde,116,69,Rent,0,1789,"18,000 to 30,000",0,2,Green; Orange; Violet,29/04/2019
+833,47,female,162,156.0871,Black,119,79,Rent,3,2095,"30,000 to 50,000",0,2,Red; Blue; Violet,03/11/2017
+834,27,female,159,123.45872,Blonde,121,81,Mortgage,,1851,,0,1,Blue; Yellow; Orange,
+835,22,male,165,182.10161,,127,90,Rent,4,2780,"<18,000",1,1,Orange; Red; Violet,14/04/2018
+836,42,Male,172,165.3465,Blonde,118,73,Own,1,2271,"18,000 to 30,000",0,2,; Green; Orange,26/04/2018
+837,42,female,167,174.82637,Black,129,93,Own,0,1918,"<18,000",0,1,Green; Indigo; Yellow,09/09/2018
+838,23,Male,179,183.20392,Brown,128,86,Rent,0,2454,"<18,000",0,2,Violet; Indigo;,12/07/2019
+839,71,Female,154,183.86531,Blonde,150,115,Own,0,1815,"50,000+",0,2,Orange; Violet; Yellow,12/10/2019
+840,60,Male,172,161.15771,Brown,141,91,Rent,,1974,"30,000 to 50,000",0,2,Green; Red; Orange,10/03/2020
+841,41,Male,176,203.48643,Grey,120,79,Rent,2,2648,"30,000 to 50,000",0,2,Orange; Indigo;,10/05/2019
+842,25,Female,156,170.85805,Blonde,113,71,Rent,4,2361,"18,000 to 30,000",1,2,Indigo; Violet; Yellow,02/09/2018
+843,49,Female,162,164.6851,Grey,126,94,Own,3,2069,"18,000 to 30,000",0,2,Blue; Violet; Indigo,04/08/2018
+844,999,Male,169,146.60722,Blonde,122,83,Mortgage,3,2410,"18,000 to 30,000",1,1,Violet; Green; Yellow,11/12/2018
+845,75,Female,158,,Blonde,151,110,Own,2,1876,"<18,000",1,2,Yellow; Green; Violet,21/07/2018
+846,31,male,176,179.01514,Brown,112,67,Rent,4,2734,"<18,000",0,2,Indigo; Red; Yellow,
+847,53,Female,166,144.84352,Brown,113,70,Mortgage,,1854,"18,000 to 30,000",0,1,Blue; Orange; Yellow,13/12/2017
+848,23,female,160,149.47324,Blonde,116,72,Rent,,2273,"<18,000",0,2,Orange; Green; Blue,29/11/2018
+849,27,male,167,163.80327,Black,125,84,Rent,0,2239,"<18,000",0,2,Yellow; Blue; Green,05/09/2019
+850,20,Male,176,203.48643,Black,122,78,Rent,4,3003,"<18,000",1,2,Green; Indigo; Yellow,
+851,32,Female,160,123.45872,Black,122,83,Rent,3,2048,"<18,000",1,1,Orange; Red; Green,04/12/2018
+852,35,Male,175,183.42438,Red,122,88,Rent,2,2580,"<18,000",0,2,Indigo; Yellow; Red,25/07/2017
+853,36,Male,174,182.54254,Brown,118,88,Own,4,2782,"18,000 to 30,000",1,2,Violet; Red; Indigo,19/05/2018
+854,68,Male,171,183.20392,Black,145,106,,1,2225,"<18,000",0,2,Red; Green; Yellow,08/01/2018
+855,75,Female,165,164.46465,Grey,118,76,Own,0,1688,"18,000 to 30,000",0,2,Violet; Green; Red,28/11/2018
+856,51,male,174,186.73131,Grey,132,91,Rent,1,2324,"<18,000",,1,Orange; Indigo; Yellow,19/03/2018
+857,62,female,156,143.07983,Black,127,93,Mortgage,0,1691,"30,000 to 50,000",0,2,Violet; Orange; Red,18/06/2018
+858,76,Male,168,170.19666,Black,128,85,Own,,2096,"18,000 to 30,000",0,2,Orange; Red; Green,28/03/2019
+859,73,male,176,171.07851,Blonde,133,90,Mortgage,1,2148,"30,000 to 50,000",0,1,Indigo; Blue; Green,01/01/2020
+860,78,Male,177,167.1102,Blonde,143,100,Mortgage,0,2063,"18,000 to 30,000",0,2,Orange; Green; Blue,20/12/2019
+861,32,female,152,132.27721,Brown,113,74,Mortgage,,2169,"<18,000",0,1,; Orange;,13/03/2018
+862,30,male,173,156.74847,Red,117,79,Rent,4,2582,"<18,000",1,2,Red; Yellow; Indigo,01/01/2018
+863,63,Male,164,131.83627,Black,137,96,Mortgage,1,1896,"<18,000",0,2,Green; Violet; Red,05/10/2019
+864,999,Female,165,140.87523,,126,88,Own,0,1585,"30,000 to 50,000",0,1,Orange; ;,21/11/2019
+865,29,Male,187,162.92142,Blonde,106,72,Rent,4,2721,"18,000 to 30,000",0,1,Yellow; Violet; Red,22/07/2018
+866,999,male,171,192.24286,Blonde,113,73,Rent,,2845,"18,000 to 30,000",1,2,Indigo; Green; Violet,07/11/2017
+867,36,female,164,157.18941,Brown,124,93,Rent,2,2061,"<18,000",0,2,Yellow; Red; Blue,21/08/2018
+868,999,male,180,208.99799,Brown,128,97,Rent,1,2699,"<18,000",,1,Red; Yellow; Violet,18/01/2019
+869,22,female,156,177.03099,Red,131,94,Rent,2,2233,"<18,000",0,2,Indigo; Violet; Red,24/09/2017
+870,79,male,175,197.75441,Black,147,100,Rent,0,2107,"50,000+",0,2,Red; Yellow; Indigo,23/05/2018
+871,70,Female,,119.26994,Blonde,117,85,Own,0,1549,"18,000 to 30,000",0,1,Blue; Yellow; Orange,
+872,36,Male,173,211.86398,Blonde,108,72,Rent,0,2519,"<18,000",0,2,Red; Violet; Yellow,28/07/2019
+873,59,male,180,181.66069,Blonde,137,92,Own,0,2142,"18,000 to 30,000",0,1,Violet; Blue; Yellow,17/02/2020
+874,39,Female,161,155.64616,Blonde,126,83,Rent,2,2014,"<18,000",0,2,Violet; ; Indigo,
+875,51,Male,180,190.03824,Blonde,119,,Own,0,2259,"18,000 to 30,000",0,2,Green; Blue; Violet,27/12/2019
+876,54,Female,165,182.32207,Grey,128,88,Rent,0,1890,"<18,000",0,1,Green; Violet; Indigo,25/08/2018
+877,79,female,162,165.3465,Black,110,69,Own,0,1671,"18,000 to 30,000",0,2,Yellow; Blue; Indigo,02/08/2018
+878,54,male,167,190.92009,Blonde,137,100,Own,1,2346,"18,000 to 30,000",0,2,Red; Orange; Indigo,01/01/2019
+879,53,male,177,158.29172,Blonde,125,83,Mortgage,0,2059,"30,000 to 50,000",0,2,Violet; Blue; Green,29/04/2018
+880,79,Male,178,222.44617,Grey,126,88,Own,0,2327,"30,000 to 50,000",0,2,Red; Indigo; Blue,27/05/2018
+881,23,Male,178,170.63759,Brown,122,89,Rent,4,2814,"18,000 to 30,000",0,2,Green; Yellow; Blue,07/09/2017
+882,56,male,174,172.18082,Black,109,69,Own,0,2143,"18,000 to 30,000",0,2,Blue; Red; Green,17/10/2018
+883,25,male,175,151.67786,Brown,105,64,Mortgage,0,2242,"<18,000",0,1,Green; Red; Yellow,12/05/2019
+884,54,Male,171,205.91151,Grey,143,108,Rent,0,2321,"30,000 to 50,000",0,2,Red; Orange; Yellow,31/12/2018
+885,999,Male,183,167.55112,Brown,115,76,Rent,0,2162,"18,000 to 30,000",0,1,Violet; Yellow; Blue,
+886,22,male,169,164.02373,Red,119,80,Rent,4,2574,"18,000 to 30,000",1,2,Yellow; Orange;,23/07/2018
+887,48,female,156,156.30756,Brown,,59,Own,1,1880,"<18,000",0,1,Orange; Blue; Violet,27/09/2018
+888,71,Female,165,160.27586,Blonde,107,68,Mortgage,0,1694,"<18,000",0,1,Orange; Red; Indigo,20/08/2017
+889,70,Female,158,164.24419,Brown,138,93,Mortgage,0,1719,"50,000+",1,2,Green; Orange; Blue,12/09/2017
+890,51,male,,167.55112,Black,129,92,Own,4,2523,"<18,000",1,1,Green; Yellow; Indigo,09/06/2018
+891,77,Female,165,132.71812,Grey,127,90,Own,0,1584,"30,000 to 50,000",0,1,Violet; Orange; Green,24/09/2017
+892,61,Male,183,194.00656,Blonde,128,93,Mortgage,0,2304,"18,000 to 30,000",0,1,Red; Blue; Orange,01/10/2018
+893,52,Male,172,,Brown,124,87,Own,0,2206,"<18,000",0,2,Violet; Orange; Red,10/02/2019
+894,56,Female,155,150.35507,Blonde,129,84,Mortgage,3,2016,"18,000 to 30,000",1,1,Green; Orange; Yellow,14/11/2017
+895,73,female,165,151.01646,Blonde,117,77,Mortgage,0,1635,"50,000+",0,2,Orange; Blue; Green,25/09/2018
+896,69,female,168,160.27586,Brown,123,90,Mortgage,1,1836,"18,000 to 30,000",0,2,Indigo; Orange; Green,
+897,62,female,163,150.79601,Black,,74,,4,2153,"<18,000",1,2,Red; Yellow; Blue,19/02/2020
+898,67,Male,180,176.3696,Black,144,111,Own,0,2159,"30,000 to 50,000",0,2,Blue; Red;,23/12/2019
+899,73,male,177,215.17091,Black,146,106,Rent,,2322,"30,000 to 50,000",0,2,Green; Violet; Indigo,16/12/2018
+900,72,male,177,197.75441,Black,153,118,Own,0,2173,"50,000+",0,1,Orange; Green; Red,16/02/2019
+901,36,Female,170,148.37093,Brown,105,68,Mortgage,1,1913,"<18,000",0,2,Yellow; Indigo; Blue,05/11/2019
+902,56,female,159,152.11877,Blonde,140,,Rent,0,1803,,0,2,Orange; Yellow; Indigo,05/10/2018
+903,20,Male,170,180.9993,Grey,115,78,,4,2813,"<18,000",1,1,Green; Yellow;,
+904,80,female,162,133.37952,Blonde,138,99,Mortgage,0,1545,"50,000+",,2,Blue; Indigo; Green,04/02/2019
+905,80,Male,169,172.62175,Brown,151,111,Rent,1,2046,"50,000+",0,1,Violet; Orange; Indigo,
+906,64,Male,178,205.69106,Black,134,91,Rent,1,2411,"18,000 to 30,000",0,2,Red; Indigo; Orange,16/04/2018
+907,72,male,183,178.35376,Blonde,116,81,Own,,2209,"30,000 to 50,000",0,1,Yellow; Green; Indigo,
+908,62,male,177,246.91743,Blonde,132,91,Mortgage,1,2710,"18,000 to 30,000",1,2,Orange; Violet; Green,02/08/2018
+909,54,Male,178,224.65079,Brown,116,,Mortgage,,NR,,0,2,Indigo; Violet; Blue,30/01/2019
+910,72,male,176,,Black,121,,Rent,1,NR,"18,000 to 30,000",0,1,Blue; Yellow;,06/09/2018
+911,59,Male,169,,Brown,109,62,Rent,0,1989,"30,000 to 50,000",0,2,Indigo; Green; Red,
+912,28,male,177,173.06267,Brown,116,75,Rent,1,2500,"<18,000",0,,Orange; Violet;,15/01/2018
+913,69,male,192,170.85805,Blonde,112,,Rent,0,2097,,0,1,Orange; Red; Blue,25/02/2018
+914,29,Male,170,168.87389,Blonde,118,68,Rent,,2228,"<18,000",0,2,Yellow; Orange; Indigo,12/12/2018
+915,34,female,159,169.9762,Black,129,81,Own,0,NR,"18,000 to 30,000",0,2,Green; ; Violet,11/01/2018
+916,51,Male,178,191.58148,Black,115,,Rent,,2300,"18,000 to 30,000",0,2,Red; Yellow;,
+917,55,male,,199.29765,Grey,120,86,Rent,0,2289,"18,000 to 30,000",0,2,Yellow; Red;,07/09/2019
+918,53,Female,164,155.64616,Blonde,107,68,Mortgage,2,2020,"<18,000",1,2,; Red; Yellow,11/11/2018
+919,79,Male,177,214.0686,Brown,127,82,Own,1,2332,"50,000+",0,2,; Orange; Yellow,27/07/2018
+920,29,female,157,123.23826,Blonde,102,59,,0,1738,"30,000 to 50,000",0,2,Red; Yellow; Orange,14/10/2018
+921,28,Female,166,178.35376,Black,120,78,Rent,0,1955,"<18,000",0,1,Yellow; Blue;,07/11/2019
+922,74,Female,160,133.59998,Black,141,97,Own,,1802,"<18,000",0,1,Red; Blue; Yellow,10/11/2017
+923,71,Female,153,158.95309,Black,129,87,Own,0,1700,"30,000 to 50,000",0,2,Red; Green; Yellow,26/02/2020
+924,79,Female,162,134.92274,Blonde,132,86,Own,1,1619,"<18,000",0,2,Violet; Indigo; Orange,04/04/2019
+925,999,Female,152,144.62306,Brown,113,79,Rent,1,1910,"<18,000",1,2,Violet; Orange; Green,14/12/2019
+926,60,male,177,210.1003,Blonde,113,74,Own,2,2588,"<18,000",1,2,Blue; Yellow;,15/12/2018
+927,49,Female,162,145.94583,Brown,119,76,Own,0,1764,"<18,000",0,2,Blue; Orange; Red,19/10/2018
+928,55,male,168,174.6059,Brown,135,96,Rent,0,2135,"<18,000",0,1,Yellow; Orange;,11/09/2017
+929,79,Female,158,127.86796,Brown,128,89,Own,0,1601,"18,000 to 30,000",0,2,Green; Blue; Orange,06/07/2018
+930,27,Female,159,160.0554,Brown,115,73,Rent,1,2086,"30,000 to 50,000",0,1,Indigo; Yellow; Blue,13/10/2018
+931,48,male,180,213.84814,Black,114,74,Rent,2,2685,"30,000 to 50,000",0,2,Red; Indigo; Green,23/10/2019
+932,45,female,160,157.18941,Blonde,127,87,Rent,0,1807,"<18,000",0,1,Green; Red; Indigo,22/06/2018
+933,71,male,181,243.6105,Brown,145,99,Rent,0,2560,"<18,000",1,2,Red; Yellow; Violet,22/08/2017
+934,44,Female,161,120.15179,Brown,122,84,Rent,0,1669,"<18,000",0,2,Violet; Green; Yellow,
+935,75,Male,178,167.55112,Brown,,97,Mortgage,0,1991,"18,000 to 30,000",0,2,Green; Blue;,09/02/2018
+936,25,Male,178,219.80061,Grey,126,78,Rent,4,3129,"30,000 to 50,000",0,2,Red; Green; Orange,16/03/2020
+937,25,female,159,145.064,,111,63,Mortgage,3,2193,"<18,000",1,2,Yellow; Red; Orange,26/09/2017
+938,47,female,154,153.44154,Brown,114,78,Rent,3,2065,"18,000 to 30,000",0,2,Violet; Indigo; Blue,10/03/2019
+939,21,female,156,155.64616,Black,126,85,Rent,1,2039,"<18,000",0,1,; Blue; Green,02/03/2019
+940,999,male,177,192.24286,Black,130,89,Rent,1,2339,"30,000 to 50,000",1,1,Red; Green; Yellow,30/05/2018
+941,51,male,179,188.49501,Blonde,127,85,Own,1,2385,"<18,000",0,2,Yellow; Orange; Blue,31/01/2018
+942,24,male,176,151.89832,Black,113,68,Rent,4,2655,"<18,000",1,2,Yellow; Indigo; Violet,23/05/2018
+943,66,male,182,,Brown,138,104,Mortgage,0,2585,"30,000 to 50,000",0,1,Red; Yellow; Indigo,20/09/2019
+944,31,male,185,202.82504,Black,119,78,Rent,,2635,"<18,000",1,1,Yellow; Violet; Red,30/07/2019
+945,26,Male,174,207.89568,Blonde,115,74,Own,4,2978,"<18,000",1,1,Blue; Violet; Green,12/05/2018
+946,66,female,160,164.24419,Red,133,87,Own,1,1832,"30,000 to 50,000",0,1,Violet; Green; Yellow,02/10/2017
+947,999,female,156,155.4257,Black,111,71,Rent,,2006,"<18,000",0,2,Violet; Green; Orange,03/08/2018
+948,74,female,167,130.29305,,,89,Own,1,1682,"<18,000",0,1,Yellow; ; Red,18/12/2019
+949,69,female,155,135.8046,Grey,137,107,Mortgage,1,1659,"30,000 to 50,000",0,2,Red; Violet; Blue,11/08/2018
+950,54,female,155,136.46599,Blonde,128,95,Rent,,1907,"30,000 to 50,000",0,1,Blue; Indigo; Yellow,04/09/2019
+951,57,Male,176,191.14055,Brown,125,83,Mortgage,1,2375,,0,2,Blue; Violet; Orange,01/07/2019
+952,52,female,168,182.10161,Blonde,130,89,Own,0,1880,"30,000 to 50,000",0,2,Orange; Green; Blue,10/08/2017
+953,999,female,161,147.48907,Blonde,139,100,Own,1,1714,"30,000 to 50,000",0,2,Blue; Indigo; Red,08/01/2018
+954,40,female,161,188.49501,Black,116,72,Mortgage,1,2074,"18,000 to 30,000",0,1,Violet; Red; Yellow,19/08/2019
+955,21,Male,171,190.03824,Brown,117,82,Rent,1,2589,"18,000 to 30,000",0,1,Yellow; Red; Indigo,26/08/2017
+956,54,female,165,161.59865,Red,119,73,Rent,2,1961,"18,000 to 30,000",0,2,Green; Orange; Indigo,17/11/2017
+957,68,male,169,159.61449,Brown,136,,Rent,0,1941,"30,000 to 50,000",0,1,Orange; Green; Blue,
+958,52,male,176,160.93726,Black,127,,Rent,1,2210,"18,000 to 30,000",0,2,Red; Yellow; Indigo,07/07/2017
+959,60,Female,162,200.39996,Black,126,87,Mortgage,,1995,"50,000+",0,2,Red; Green; Indigo,19/11/2018
+960,66,female,160,155.4257,Blonde,119,77,Own,1,1810,"<18,000",0,2,Yellow; Indigo; Blue,24/12/2019
+961,79,female,165,154.10294,Grey,126,85,Own,0,1689,"30,000 to 50,000",0,2,Violet; Indigo; Yellow,06/02/2019
+962,36,male,179,180.9993,Brown,123,81,Mortgage,4,2776,"<18,000",1,2,Green; Blue; Yellow,12/07/2017
+963,48,female,161,175.92868,Blonde,126,88,Own,3,2180,"18,000 to 30,000",0,2,Yellow; Orange; Red,06/01/2019
+964,48,Male,,200.39996,Black,121,85,Rent,0,2452,"<18,000",0,2,Yellow; Blue; Orange,
+965,75,male,183,194.44748,Blonde,117,76,Mortgage,1,2297,"30,000 to 50,000",0,2,Violet; Blue; Orange,16/07/2018
+966,27,Female,162,138.45013,Brown,112,64,Own,4,2222,"<18,000",1,2,Orange; Violet; Yellow,22/09/2019
+967,79,Female,161,159.83495,Black,148,113,Own,0,1695,,0,1,Yellow; Orange; Violet,
+968,34,Female,157,169.9762,Brown,116,68,Rent,1,2002,"18,000 to 30,000",0,2,Red; Green; Indigo,16/05/2019
+969,76,Male,178,194.22702,Black,124,85,Own,0,2139,"30,000 to 50,000",0,2,Green; Yellow; Red,24/06/2018
+970,38,Female,167,167.99203,Blonde,120,81,Rent,0,1913,"<18,000",0,2,Red; Indigo; Green,13/11/2019
+971,40,female,158,163.80327,Brown,133,99,Own,4,2296,"<18,000",0,2,Violet; Yellow; Green,30/11/2017
+972,54,Male,171,189.37686,,129,88,Mortgage,,2211,"<18,000",0,2,Green; Violet; Yellow,16/01/2019
+973,57,female,166,160.49634,Red,114,72,Mortgage,0,1758,"<18,000",0,2,Orange; Violet;,22/01/2018
+974,45,female,163,149.91415,Brown,,79,Rent,0,1776,"<18,000",0,2,Blue; Orange; Violet,27/02/2018
+975,77,Male,183,167.55112,Blonde,,76,Rent,0,1988,"18,000 to 30,000",0,2,Blue; Orange;,
+976,77,female,158,177.69237,Blonde,146,109,Mortgage,0,1770,"18,000 to 30,000",0,2,Yellow; Red; Indigo,04/12/2018
+977,76,Male,173,162.03957,Red,125,86,Rent,0,1950,"50,000+",0,1,Orange; Blue; Indigo,13/11/2018
+978,48,male,175,126.98611,Blonde,108,69,Rent,1,2073,"30,000 to 50,000",,2,Red; Violet;,
+979,27,Male,177,199.07719,Black,109,70,Rent,1,2640,"18,000 to 30,000",0,2,Blue; Red; Violet,21/07/2018
+980,76,Male,179,186.29039,Black,138,102,Mortgage,1,2269,"18,000 to 30,000",0,2,Orange; Blue; Indigo,
+981,24,female,165,171.51944,Black,117,78,Rent,4,2413,"18,000 to 30,000",1,1,Indigo; Green; Blue,26/02/2020
+982,64,male,185,188.93593,Brown,130,88,Rent,1,2272,"30,000 to 50,000",0,1,Yellow; Green; Indigo,28/11/2017
+983,29,male,179,213.40723,Brown,116,76,Mortgage,3,2891,"30,000 to 50,000",1,1,Violet; Yellow; Green,27/01/2019
+984,65,male,174,186.06993,Blonde,125,87,Own,2,2354,"30,000 to 50,000",0,2,Yellow; Indigo; Violet,24/09/2018
+985,75,male,168,180.55838,Brown,125,,,0,1994,"18,000 to 30,000",0,2,Blue; Violet; Red,13/08/2017
+986,21,female,161,152.33923,Grey,125,83,Own,4,2383,"<18,000",1,1,Indigo; Violet;,23/10/2017
+987,49,Male,178,200.1795,Grey,138,99,Mortgage,0,2409,"18,000 to 30,000",0,2,Blue; Red; Green,06/08/2018
+988,33,Male,177,151.67786,Brown,125,92,Rent,,2488,"18,000 to 30,000",0,2,Yellow; Indigo; Violet,29/09/2018
+989,75,male,175,200.1795,Black,145,107,Own,0,2178,"<18,000",0,1,Red; Yellow; Indigo,06/12/2017
+990,999,male,179,190.03824,Blonde,131,95,Own,1,2365,"50,000+",0,1,Indigo; Green; Blue,04/12/2018
+991,80,Male,174,183.42438,Brown,122,79,Own,0,2043,"30,000 to 50,000",0,1,Blue; Red;,08/12/2017
+992,63,male,179,,Grey,134,101,Own,0,2146,"30,000 to 50,000",0,1,Orange; Violet; Indigo,22/07/2017
+993,52,Male,172,147.48907,Black,127,83,Own,0,2064,"18,000 to 30,000",0,2,Yellow; Blue; Indigo,22/12/2017
+994,50,male,179,202.38412,Blonde,113,74,Rent,2,2653,,1,1,Indigo; Orange;,29/01/2019
+995,23,Male,179,191.80194,Blonde,115,73,Rent,0,2502,"18,000 to 30,000",0,2,Indigo; Yellow; Green,02/11/2017
+996,36,Male,182,188.93593,Grey,116,75,Own,2,2595,"<18,000",1,2,Violet; Green; Indigo,02/05/2018
+997,34,female,162,121.47456,Black,110,,Rent,0,1661,"<18,000",0,1,Green; Indigo; Red,03/05/2019
+998,52,male,170,,Black,115,79,Rent,0,2063,"<18,000",0,2,Blue; Indigo; Green,25/01/2019
+999,36,female,165,152.33923,Blonde,113,74,Rent,0,1895,"30,000 to 50,000",0,2,Orange; Indigo; Violet,26/02/2018
+1000,74,male,174,194.66795,Blonde,125,97,Own,0,2151,"18,000 to 30,000",0,2,Orange; Red; Blue,24/11/2018
