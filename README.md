@@ -1,5 +1,5 @@
 # Introduction to Stata
-This repository contains the files for my course: **Introduction to Stata**  
+This repository contains the coursebook, data and do files for my course: **Introduction to Stata**  
 
 All data is simulated (no confidentiality issues), and all work is my own. 
 
