@@ -2,7 +2,9 @@
 This repository contains the files for my course: Introduction to Stata
 
 
+
 All data is simulated (no confidentiality issues), and all work is my own. 
+
 
 
 Current version: 0.1
