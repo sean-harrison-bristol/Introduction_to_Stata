@@ -35,7 +35,7 @@ save "Lesson_01_SH.dta", replace
 
 cd "G:\Documents\Online teaching\01 - Introduction to Stata\Stata\Data files"
 use "Lesson_01_SH.dta", clear
-*use "Lesson_02.dta", clear //if not confident with the saved dataset from the last exercise
+*use "Lesson_02.dta", clear //Used in case of errors in the file with initials
 
 *2.1 List
 list
@@ -139,6 +139,7 @@ clear
 
 cd "G:\Documents\Online teaching\01 - Introduction to Stata\Stata\Data files"
 use "Lesson_02_SH.dta", clear
+*use "Lesson_03.dta", clear
 
 *3.1 Restricting Commands
 *The in Qualifier
@@ -207,18 +208,21 @@ save "Lesson_03_SH.dta", replace
 
 cd "G:\Documents\Online teaching\01 - Introduction to Stata\Stata\Data files"
 use "Lesson_03_SH.dta", clear
+*use "Lesson_04.dta", clear
 
 *4.1 Converting String Variables to Numeric Variables (and Vice Versa)
+*String Variables to Numeric Variables
 destring calories, generate(calories_numeric)
 
-replace calories = "" if calories == "NR"
-destring calories, generate(calories_numeric)
+destring calories, generate(calories_numeric) force
 *OR*
-destring calories, generate(calories_numeric_2) force
+replace calories = "" if calories == "NR"
+destring calories, generate(calories_numeric_2)
 
 gen calories_numeric_3 = real(calories)
 count if calories_numeric == calories_numeric_3
 
+*Numeric Variables to String Variables
 tostring(calories_numeric), gen(calories_string1)
 gen calories_string2 = string(calories_numeric), a(calories_string1)
 
@@ -236,6 +240,7 @@ format bmi %9.0g
 *** ***
 
 *4.2 Converting String Variables to Labelled Numeric Variables (and Vice Versa)
+*String Variables to Labelled Numeric Variables
 encode sex, gen(sex_numeric)
 order sex_numeric, a(sex)
 
@@ -259,8 +264,11 @@ encode income, gen(income_numeric) label(income)
 order income_numeric, a(income)
 label variable income_numeric "Income (£s)"
 
+*Labelled Numeric Variables to String Variables
 decode income_numeric, gen(income_string)
 count if income_string == income
+
+label define income 1 "<£18,000" 2 "£18,000 to £30,000" 3 "£30,000 to £50,000" 4 "£50,000+", modify
 
 drop sex hair_colour income income_string
 
@@ -269,32 +277,36 @@ rename hair hair_colour
 rename income income
 
 *4.3 Manipulating Strings
-*egen ends()
+*split
 list favourite_colours in 1/5
 
-egen colour_1 = ends(favourite_colours), punct(;) head trim
-tab colour_1
+split favourite_colours, generate(colour_) parse(;)
 
-egen x = ends(favourite_colours), punct(;) tail trim
-egen colour_2 = ends(x), punct(;) head trim
-tab colour_2
-
-egen colour_3 = ends(x), punct(;) tail trim
-tab colour_3
-
-drop x
 label variable colour_1 "1st favourite colour"
 label variable colour_2 "2nd favourite colour"
 label variable colour_3 "3rd favourite colour"
 order colour_*, a(favourite_colours)
 
+*egen ends()
+egen first_colour = ends(favourite_colours), punct(;) head trim
+egen last_colour = ends(favourite_colours), punct(;) last trim
+
+egen x = ends(favourite_colours), punct(;) tail trim
+egen middle_colour = ends(x), punct(;) head trim
+
+drop first_colour middle_colour last_colour x
+
 *egen concat
-egen favourite_colours2 = concat(colour_1 colour_2 colour_3), punct("; ")
-count if favourite_colours  == favourite_colours2
+egen favourite_colours2 = concat(colour_1 colour_2 colour_3), punct(;)
+count if favourite_colours == favourite_colours2
+
+gen favourite_colours3 = colour_1 + ";" + colour_2 + ";" + colour_3
+count if favourite_colours == favourite_colours3
 
 drop favourite*
 
 *Other useful string commands
+*lower(), upper(), proper()
 replace colour_1 = lower(colour_1)
 tab colour_1
 replace colour_1 = upper(colour_1)
@@ -302,16 +314,19 @@ tab colour_1
 replace colour_1 = proper(colour_1)
 tab colour_1
 
+*length()
 gen x = length(colour_1)
 tab x
 drop x
 
 display length("For instance, if we wanted to find out how many characters make up this sentence:")
 
+*strpos()
 gen x = strpos(colour_1,"e")
 tab colour_1 x, miss
 dis strpos("this is a sentence","sen")
 
+*substr()
 gen x2 = substr(colour_1,1,3)
 tab x2
 replace x2 = substr(colour_1,-3,3)
@@ -320,12 +335,30 @@ replace x2 = substr(colour_1,1,x)
 tab x2
 drop x x2
 
+gen x2 = substr(colour_1,1,strpos(colour_1,"e"))
+tab x2
+drop x2
+
+*subinstr()
 replace date_of_bp_measurement = subinstr(date_of_bp_measurement,"/","-",.)
 list date_of_bp_measurement in 1/5
+
+replace colour_2 = subinstr(colour_2," ","",.)
+replace colour_3 = strtrim(colour_3)
+
+encode colour_1, gen(colour_1x) label(colours)
+encode colour_2, gen(colour_2x) label(colours)
+encode colour_3, gen(colour_3x) label(colours)
+order colour_1x-colour_3x, a(colour_3)
+drop colour_1-colour_3
+rename colour_1x colour_1
+rename colour_2x colour_2
+rename colour_3x colour_3
 
 *4.4 Formatting Variables
 format *
 
+*Formatting Numeric Variables
 format bmi %9.3g
 list bmi in 1/5
 
@@ -355,6 +388,7 @@ format height %-9.0g
 list height in 1/5
 format height %9.0g
 
+*Formatting String Variables
 gen x = string(bmi,"%9.1f")
 tostring bmi, gen(x2) format("%9.1f") force
 gen units = "kg/m2"
@@ -398,5 +432,3 @@ rename date_of_bp_measurement_2 date_of_bp_measurement
 save "Lesson_04_SH.dta", replace
 
 *********************************************************
-
-

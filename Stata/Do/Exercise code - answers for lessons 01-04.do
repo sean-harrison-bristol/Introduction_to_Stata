@@ -21,7 +21,7 @@ export excel using "Exercise_01_SH", firstrow(variables) replace
 
 *1
 use "Exercise_01_SH.dta", clear
-*use "Exercise_02.dta", clear //if not confident with the saved dataset from the last exercise
+*use "Exercise_02.dta", clear //if you’re not confident in your save from exercise 1
 
 *2
 list age height
@@ -79,7 +79,7 @@ save "Exercise_02_SH.dta", replace
 
 *1
 use "Exercise_02_SH.dta", clear
-*use "Exercise_03.dta", clear
+*use "Exercise_03.dta", clear // if you’re not confident in your save from exercise 2
 
 *2
 sort age
@@ -90,7 +90,7 @@ sort id
 
 *3
 sum height, detail
-replace height = . if height == -1
+replace height = . if height == -1 //Don’t forget you need a double equals sign for if statements
 sum height, detail
 replace bmi = . if height == .
 
@@ -107,11 +107,20 @@ keep if sex == "Female" | sex == "female"
 drop if sex == "Male" | sex == "male" | sex == ""
 keep age diastolic_bp
 keep if age <= diastolic_bp/2 & diastolic_bp < .
-count
+count //Or look in the bottom right window or the spreadsheet view
 restore
 
 *6
 sum age if (hair_colour == 1) | (height < 1.7 & (sex == "female" | sex == "Female"))
+/*
+The key part of the if statement is that the second OR statement has a nested OR statement: 
+have a careful look at the brackets, because we want it to say "if the person is shorter than 1.7 metres AND is ("female" OR "Female")"
+If you miss out those brackets, Stata will interpret the statement as 
+"if the person is shorter than 1.7 metres AND "female", OR if the person is "Female"", 
+which includes people who are "Female" of any height
+Liberally using brackets until you’re certain you have the right if statement 
+is usually the best way to go, and the more of these you do the more intuitive it will become
+*/
 gen x = 1 if (hair_colour == 1) | (height < 1.7 & (sex == "female" | sex == "Female"))
 list age hair_colour sex height x in 1/20
 sort hair_colour
@@ -122,11 +131,16 @@ drop x
 *7
 replace sex = "Male" if sex == "male"
 replace sex = "Female" if sex == "female"
-*OR
+/*
+We haven’t covered this yet, but there’s also a command that capitalises 
+the first letter of all words in a string, 
+and this would also work (we’ll cover commands to manipulate strings in the next lesson):
+*/
 replace sex = proper(sex)
 
 *8
 tab sex marathon if bmi > 25 & bmi < .
+*Make sure you account for missing values!
 
 *9
 gen bmi_categories = 0 if bmi < 25
@@ -139,12 +153,21 @@ order bmi_categories, a(bmi)
 
 *10
 bysort bmi_categories: tab sex income, col
+/*
+You could also do this with a series of tabulate commands with if statements, but using by is quicker
+The answers are as follows:
+i.	BMI < 25 kg/m2 = 54.24%
+ii.	BMI 25 – 30 kg/m2 = 40.74%
+iii.BMI 30+ kg/m2 = 60.00%
+iv.	BMI missing = 63.64%
+*/
 
 *11
 gen sex2 = 0 if sex == "Male"
 replace sex2 = 1 if sex == "Female"
 label define sex 0 "Male" 1 "Female"
 label values sex2 sex
+*There’s a variable called encode that can do these steps for you, more on that in the next lesson
 label variable sex2 "Sex (numeric)"
 order sex2, a(sex)
 
@@ -160,14 +183,13 @@ label variable weight "Weight (kg)"
 
 *14
 save "Exercise_03_SH.dta", replace
-save "Exercise_04.dta", replace
 
 *****************************************************
 
 *Lesson 4
 
 use "Exercise_03_SH.dta", clear
-*use "Exercise_04.dta", clear
+*use "Exercise_04.dta", clear //if you’re not confident in your save from exercise 3:
 
 *1
 gen calories_string = string(calories,"%9.1f")
@@ -176,6 +198,13 @@ gen calories_string = string(calories,"%9.1f")
 gen calories_numeric = real(calories_string)
 *OR*
 *destring calories_string, gen(calories_numeric)
+/*
+The newly created numeric variable will necessarily be limited to 1 decimal place, 
+since that’s how many decimal places the string was created with. 
+Therefore, the new variable won’t be exactly the same as the original calories 
+variable, as that has more than 1 decimal place. 
+It will be the same to 1 decimal place though.
+*/
 drop calories_*
 
 *3
@@ -193,32 +222,41 @@ merge 1:1 id using "Exercise_04_merge.dta", nogen
 replace favourite_dog_breed = subinstr(favourite_dog_breed,"Retriver","Retriever",.)
 
 *6
-egen breed_1 = ends(favourite_dog_breed), punct(;) head trim
-egen x = ends(favourite_dog_breed), punct(;) tail trim
-egen breed_2 = ends(x), punct(;) head trim
-egen x2 = ends(x), punct(;) tail trim
-egen breed_3 = ends(x2), punct(;) head trim
-egen x3 = ends(x2), punct(;) tail trim
-egen breed_4 = ends(x3), punct(;) head trim
-drop x*
+split favourite_dog_breed, gen(breed_) parse(;)
 label variable breed_1 "1st favourite dog breed"
 label variable breed_2 "2nd favourite dog breed"
 label variable breed_3 "3rd favourite dog breed"
 label variable breed_4 "4th favourite dog breed"
 order breed_*, a(favourite_dog_breed)
-egen favourite_dog_breed_2 = concat(breed_1 breed_2 breed_3 breed_4), punct("; ")
+egen favourite_dog_breed_2 = concat(breed_1 breed_2 breed_3 breed_4), punct(";")
 count if favourite_dog_breed == favourite_dog_breed_2
+*OR*
+gen favourite_dog_breed_3 = breed_1 + ";" + breed_2 + ";" + breed_3 + ";" + breed_4
+count if favourite_dog_breed == favourite_dog_breed_3
 drop favourite*
+replace breed_1 = strtrim(breed_1)
+replace breed_2 = strtrim(breed_2)
+replace breed_3 = strtrim(breed_3)
+replace breed_4 = strtrim(breed_4)
 
 *7
 tab breed_1
 tab breed_2
 tab breed_3
 tab breed_4
+/*
+We can see by tabulating the breed variables that each variable 
+has 9 breeds, and they all look the same in each variable
+*/
 gen x = length(breed_1)
 sum x, detail
 *OR*
 tab breed_1 x
+/*
+Either by summarizing or tabulating breed_1 and x, 
+we can see the “German Shorthaired Pointer” has the most characters, 
+at 26 characters
+*/
 drop x
 
 *8
@@ -230,6 +268,7 @@ tab breed_1 breed_1x
 tab breed_2 breed_2x
 tab breed_3 breed_3x
 tab breed_4 breed_4x
+*i.	All the tabulations look the same, so the encoding worked
 drop breed_1-breed_4
 rename breed_1x breed_1
 rename breed_2x breed_2
@@ -254,4 +293,3 @@ format date_of_recruitment %td
 save "Exercise_04_SH.dta", replace
 
 *********************************************************
-
