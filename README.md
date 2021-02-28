@@ -5,7 +5,7 @@ All data is simulated (no confidentiality issues), and all work is my own.
 
 **Current version: 0.1**  
 This version is incomplete and will be updated as I complete lessons in the next couple of weeks.  
-As of Monday 29/02/2021, Lessons 01-04 should all be available.
+As of now (Sunday 2021-02-28, 7pm GMT), Lessons 01-04 are available on Youtube.
 
 If you find any errors, please let me know!  
 
