@@ -1,4 +1,4 @@
-*Lesson 1
+*Exercise 01
 
 cd "G:\Documents\Online teaching\01 - Introduction to Stata\Stata\Data files"
 
@@ -15,9 +15,11 @@ help merge
 save "Exercise_01_SH.dta", replace
 export excel using "Exercise_01_SH", firstrow(variables) replace
 
+save "Exercise_02.dta", replace // Used to create a working copy of the dataset for exercise 2 in case of any errors
+
 ****************************************************
 
-*Lesson 2
+*Exercise 02
 
 *1
 use "Exercise_01_SH.dta", clear
@@ -72,10 +74,11 @@ rename var14 smoking_status //or current_smoker, or anything really so long as i
 drop _merge
 
 save "Exercise_02_SH.dta", replace
+save "Exercise_03.dta", replace // Used to create a working copy of the dataset for exercise 3 in case of any errors
 
 ****************************************************
 
-*Lesson 3
+*Exercise 03
 
 *1
 use "Exercise_02_SH.dta", clear
@@ -183,10 +186,11 @@ label variable weight "Weight (kg)"
 
 *14
 save "Exercise_03_SH.dta", replace
+save "Exercise_04.dta", replace // Used to create a working copy of the dataset for exercise 4 in case of any errors
 
 *****************************************************
 
-*Lesson 4
+*Exercise 04
 
 use "Exercise_03_SH.dta", clear
 *use "Exercise_04.dta", clear //if you’re not confident in your save from exercise 3:
@@ -291,5 +295,7 @@ format date_of_recruitment %td
 
 *11
 save "Exercise_04_SH.dta", replace
+save "Exercise_05.dta", replace // Used to create a working copy of the dataset for exercise 5 in case of any errors
 
 *********************************************************
+

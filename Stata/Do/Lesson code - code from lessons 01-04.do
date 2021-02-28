@@ -28,6 +28,7 @@ use "Lesson_01_SH.dta", clear
 merge 1:1 var1 using "merge.dta"
 
 save "Lesson_01_SH.dta", replace
+save "Lesson_02.dta", replace // Used to create a working copy of the dataset for lesson 2 in case of any errors
 
 ****************************************
 
@@ -127,6 +128,7 @@ label list
 drop _merge id2
 
 save "Lesson_02_SH.dta", replace
+save "Lesson_03.dta", replace // Used to create a working copy of the dataset for lesson 3 in case of any errors
 
 keep id-weight
 
@@ -202,6 +204,7 @@ bysort sex income: tab current_smoker
 sort id
 
 save "Lesson_03_SH.dta", replace
+save "Lesson_04.dta", replace // Used to create a working copy of the dataset for lesson 4 in case of any errors
 
 ****************************************
 *Lesson 4
@@ -215,7 +218,7 @@ use "Lesson_03_SH.dta", clear
 destring calories, generate(calories_numeric)
 
 destring calories, generate(calories_numeric) force
-*OR*
+
 replace calories = "" if calories == "NR"
 destring calories, generate(calories_numeric_2)
 
@@ -297,11 +300,11 @@ egen middle_colour = ends(x), punct(;) head trim
 drop first_colour middle_colour last_colour x
 
 *egen concat
-egen favourite_colours2 = concat(colour_1 colour_2 colour_3), punct(;)
-count if favourite_colours == favourite_colours2
+egen favourite_colours_2 = concat(colour_1 colour_2 colour_3), punct(;)
+count if favourite_colours == favourite_colours_2
 
-gen favourite_colours3 = colour_1 + ";" + colour_2 + ";" + colour_3
-count if favourite_colours == favourite_colours3
+gen favourite_colours_3 = colour_1 + ";" + colour_2 + ";" + colour_3
+count if favourite_colours == favourite_colours_3
 
 drop favourite*
 
@@ -430,5 +433,8 @@ drop date_of_bp_measurement
 rename date_of_bp_measurement_2 date_of_bp_measurement
 
 save "Lesson_04_SH.dta", replace
+save "Lesson_05.dta", replace // Used to create a working copy of the dataset for lesson 5 in case of any errors
 
 *********************************************************
+
+
