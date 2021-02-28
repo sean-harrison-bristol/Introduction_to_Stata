@@ -9,7 +9,7 @@ As of Monday 29/02/2021, Lessons 01-04 should all be available.
 
 If you find any errors, please let me know!  
 
-*Youtube: https://tinyurl.com/krcmzyv4
+*Youtube: https://tinyurl.com/krcmzyv4  
 Twitter: @stats_sean  
 Blog: seanharrisonblog.com*
 
